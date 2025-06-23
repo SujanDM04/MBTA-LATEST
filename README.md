@@ -1,4 +1,4 @@
-# AI-Based Train Scheduling Optimization
+# MBTA OPTIMAL SCHEDULE FINDER ​
 
 This project implements an AI-driven train scheduling optimization system using passenger flow data and GTFS (General Transit Feed Specification) data. The system aims to optimize train frequencies based on observed passenger patterns during different time periods.
 
