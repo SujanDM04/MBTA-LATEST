@@ -1,0 +1,1321 @@
+mode,season,route_id,route_name,direction_id,day_type_id,day_type_name,time_period_id,time_period_name,stop_name,stop_id,total_ons,total_offs,number_service_days,average_ons,average_offs,average_flow,ObjectId
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Malden Center,place-mlmnl,77651,556,77,1008,7,2007,4401
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,North Station,place-north,34469,31391,77,448,408,3213,4402
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Oak Grove,place-ogmnl,77406,0,77,1005,0,1005,4403
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Roxbury Crossing,place-rcmnl,2416,17910,77,31,233,497,4404
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Ruggles,place-rugg,4109,49202,77,53,639,698,4405
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Stony Brook,place-sbmnl,625,2714,77,8,35,443,4406
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,State Street,place-state,74268,35993,77,965,467,3733,4407
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Sullivan Square,place-sull,43555,7026,77,566,91,3183,4408
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Tufts Medical Center,place-tumnl,2838,36291,77,37,471,2073,4409
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Wellington,place-welln,51516,2484,77,669,32,2643,4410
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Assembly,place-astao,50131,11300,77,651,147,10753,4411
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Back Bay,place-bbsta,28524,321387,77,370,4174,3630,4412
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Community College,place-ccmnl,39408,42263,77,512,549,12376,4413
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Assembly,place-astao,44953,6741,77,584,88,2608,4414
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Malden Center,place-mlmnl,28392,2679,77,369,35,512,4417
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Chinatown,place-chncl,8350,77128,77,108,1002,8632,4421
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Downtown Crossing,place-dwnxg,137536,407654,77,1786,5294,9525,4422
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Forest Hills,place-forhl,0,67217,77,0,873,0,4423
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Green Street,place-grnst,1838,15346,77,24,199,873,4424
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Haymarket,place-haecl,44711,70020,77,581,909,13062,4425
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Jackson Square,place-jaksn,12013,22365,77,156,290,1157,4426
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Massachusetts Ave.,place-masta,10788,54843,77,140,712,3058,4427
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Malden Center,place-mlmnl,350889,5757,77,4557,75,7671,4428
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,North Station,place-north,177412,99323,77,2304,1290,13390,4429
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Oak Grove,place-ogmnl,245542,0,77,3189,0,3189,4430
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Roxbury Crossing,place-rcmnl,7160,38759,77,93,503,1292,4431
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Ruggles,place-rugg,10854,115261,77,141,1497,1702,4432
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Stony Brook,place-sbmnl,3153,11529,77,41,150,1048,4433
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,State Street,place-state,175249,177453,77,2276,2305,13033,4434
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Sullivan Square,place-sull,146989,19164,77,1909,249,12413,4435
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Tufts Medical Center,place-tumnl,13662,105939,77,177,1376,7433,4436
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Wellington,place-welln,203678,5178,77,2645,67,10249,4437
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Assembly,place-astao,50152,12497,77,651,162,6912,4438
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Back Bay,place-bbsta,44882,196316,77,583,2550,5224,4439
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Community College,place-ccmnl,79164,42423,77,1028,551,8966,4440
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Chinatown,place-chncl,26403,89754,77,343,1166,7843,4441
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Downtown Crossing,place-dwnxg,187550,311011,77,2436,4039,8666,4442
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Forest Hills,place-forhl,0,115722,77,0,1503,0,4443
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Green Street,place-grnst,2836,27458,77,37,357,1503,4444
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Haymarket,place-haecl,74170,65158,77,963,846,9707,4445
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Jackson Square,place-jaksn,10240,48238,77,133,626,2172,4446
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Massachusetts Ave.,place-masta,20876,74331,77,271,965,4530,4447
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Malden Center,place-mlmnl,269284,13985,77,3497,182,4711,4448
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,North Station,place-north,111916,63924,77,1453,830,9590,4449
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Oak Grove,place-ogmnl,107467,0,77,1396,0,1396,4450
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Roxbury Crossing,place-rcmnl,15668,43639,77,203,567,2666,4451
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Ruggles,place-rugg,21737,137311,77,282,1783,3029,4452
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Stony Brook,place-sbmnl,2579,29513,77,33,383,1823,4453
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,State Street,place-state,158125,114829,77,2054,1491,10269,4454
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Sullivan Square,place-sull,137129,15708,77,1781,204,8489,4455
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Tufts Medical Center,place-tumnl,29941,80133,77,389,1041,7191,4456
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Wellington,place-welln,138695,6866,77,1801,89,6423,4457
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,North Station,place-north,63661,23148,77,827,301,2834,4459
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Back Bay,place-bbsta,62499,100421,77,812,1304,5252,4461
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Community College,place-ccmnl,63835,15822,77,829,205,4060,4469
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Oak Grove,place-ogmnl,13715,0,77,178,0,178,4470
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Chinatown,place-chncl,23066,30159,77,300,392,5866,4476
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Roxbury Crossing,place-rcmnl,14133,41070,77,184,533,4383,4477
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Downtown Crossing,place-dwnxg,170509,163089,77,2214,2118,5959,4483
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Ruggles,place-rugg,38026,71213,77,494,925,4733,4484
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Stony Brook,place-sbmnl,2092,67875,77,27,881,2655,4538
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Forest Hills,place-forhl,0,194626,77,0,2528,0,4539
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Green Street,place-grnst,3521,34545,77,46,449,2528,4543
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,State Street,place-state,78390,33011,77,1018,429,3741,4544
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Haymarket,place-haecl,61750,32261,77,802,419,5012,4549
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Sullivan Square,place-sull,43235,6872,77,561,89,1898,4550
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Jackson Square,place-jaksn,8698,67349,77,113,875,3442,4555
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Tufts Medical Center,place-tumnl,26979,18236,77,350,237,4962,4556
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Massachusetts Ave.,place-masta,24745,49188,77,321,639,4935,4597
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Wellington,place-welln,38382,1577,77,498,20,990,4599
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Assembly,place-astao,8946,286,77,116,4,342,4601
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Malden Center,place-mlmnl,87108,3098,77,1131,40,1464,4603
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,North Station,place-north,68624,24808,77,891,322,4629,4607
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Oak Grove,place-ogmnl,28693,0,77,373,0,373,4610
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Back Bay,place-bbsta,18543,12365,77,241,161,1298,4612
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Roxbury Crossing,place-rcmnl,37761,39607,77,490,514,4204,4615
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Community College,place-ccmnl,5094,1266,77,66,16,521,4617
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Ruggles,place-rugg,40444,94895,77,525,1232,4228,4620
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Chinatown,place-chncl,9421,3100,77,122,40,1170,4622
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Downtown Crossing,place-dwnxg,28865,26711,77,375,347,1087,4659
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Forest Hills,place-forhl,0,20802,77,0,270,0,4661
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Green Street,place-grnst,146,10640,77,2,138,270,4663
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Stony Brook,place-sbmnl,2598,41974,77,34,545,2931,4664
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,State Street,place-state,122803,57348,77,1595,745,5862,4666
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Sullivan Square,place-sull,74064,10294,77,962,134,3437,4668
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Haymarket,place-haecl,11117,6376,77,144,83,1022,4669
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Tufts Medical Center,place-tumnl,32392,41769,77,421,542,5745,4672
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Jackson Square,place-jaksn,681,24195,77,9,314,600,4673
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Wellington,place-welln,53518,3588,77,695,47,2112,4676
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Massachusetts Ave.,place-masta,10347,9164,77,134,119,1313,4677
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Assembly,place-astao,78738,6487,77,1023,84,3177,4680
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Malden Center,place-mlmnl,2849,84,77,37,1,47,4681
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Assembly,place-astao,2159,1019,77,28,13,771,4683
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Back Bay,place-bbsta,128549,163232,77,1669,2120,10260,4684
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,North Station,place-north,35800,1977,77,465,26,961,4685
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Back Bay,place-bbsta,578,14051,77,8,182,354,4687
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Community College,place-ccmnl,59693,12689,77,775,165,4845,4688
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Oak Grove,place-ogmnl,831,0,77,11,0,11,4689
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Roxbury Crossing,place-rcmnl,1796,9591,77,23,125,906,4690
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Ruggles,place-rugg,5783,29357,77,75,381,1007,4691
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Stony Brook,place-sbmnl,153,15090,77,2,196,406,4692
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,State Street,place-state,17178,14302,77,223,186,1059,4693
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Sullivan Square,place-sull,12142,2154,77,158,28,472,4694
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Tufts Medical Center,place-tumnl,8389,4689,77,109,61,1218,4695
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Wellington,place-welln,14221,153,77,185,2,229,4696
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Assembly,place-astao,1073,30,77,14,0,48,4697
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Back Bay,place-bbsta,2817,1103,77,37,14,202,4698
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Community College,place-ccmnl,352,126,77,5,2,70,4699
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Chinatown,place-chncl,1220,272,77,16,4,171,4700
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Downtown Crossing,place-dwnxg,4983,2465,77,65,32,158,4701
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Forest Hills,place-forhl,0,2201,77,0,29,0,4702
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Green Street,place-grnst,9,1474,77,0,19,29,4703
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Haymarket,place-haecl,1276,911,77,17,12,114,4704
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Jackson Square,place-jaksn,69,4433,77,1,58,80,4705
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Massachusetts Ave.,place-masta,1921,1440,77,25,19,208,4706
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Malden Center,place-mlmnl,360,8,77,5,0,6,4707
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,North Station,place-north,3267,239,77,42,3,109,4708
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Oak Grove,place-ogmnl,96,0,77,1,0,1,4709
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Roxbury Crossing,place-rcmnl,372,1734,77,5,23,137,4710
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Ruggles,place-rugg,1225,5335,77,16,69,154,4711
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Stony Brook,place-sbmnl,20,2514,77,0,33,48,4712
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,State Street,place-state,3238,2339,77,42,30,126,4713
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Sullivan Square,place-sull,1774,319,77,23,4,67,4714
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Tufts Medical Center,place-tumnl,1217,549,77,16,7,179,4715
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Wellington,place-welln,2208,7,77,29,0,34,4716
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Community College,place-ccmnl,2489,2105,77,32,27,1098,4717
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Chinatown,place-chncl,415,4729,77,5,61,617,4718
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Chinatown,place-chncl,43560,32344,77,566,420,10438,4719
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Downtown Crossing,place-dwnxg,303434,213767,77,3941,2776,10292,4721
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Forest Hills,place-forhl,0,345342,77,0,4485,0,4722
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Green Street,place-grnst,4026,98475,77,52,1279,4485,4724
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Haymarket,place-haecl,93178,34630,77,1210,450,6991,4726
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Jackson Square,place-jaksn,11801,116007,77,153,1507,7090,4728
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Massachusetts Ave.,place-masta,50188,85932,77,652,1116,9796,4730
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Malden Center,place-mlmnl,76286,3758,77,991,49,1367,4732
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,North Station,place-north,154109,47450,77,2001,616,6230,4734
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Downtown Crossing,place-dwnxg,5237,31431,77,68,408,673,4750
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Oak Grove,place-ogmnl,32756,0,77,425,0,425,4758
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Roxbury Crossing,place-rcmnl,33092,75808,77,430,985,8443,4759
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Ruggles,place-rugg,67778,129232,77,880,1678,8998,4760
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Forest Hills,place-forhl,0,9642,77,0,125,0,4761
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Stony Brook,place-sbmnl,3813,109917,77,50,1427,5712,4762
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Green Street,place-grnst,142,1002,77,2,13,125,4763
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,State Street,place-state,225691,61111,77,2931,794,9128,4764
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Haymarket,place-haecl,5399,6085,77,70,79,935,4765
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Sullivan Square,place-sull,94358,12895,77,1225,167,4235,4766
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Tufts Medical Center,place-tumnl,59943,38979,77,778,506,10710,4767
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Wellington,place-welln,70676,3611,77,918,47,2238,4768
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Assembly,place-astao,36532,2986,77,474,39,1426,4769
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Back Bay,place-bbsta,78224,53090,77,1016,689,5288,4770
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Community College,place-ccmnl,36404,4805,77,473,62,2308,4771
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Chinatown,place-chncl,34035,13641,77,442,177,4849,4772
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Downtown Crossing,place-dwnxg,160956,96045,77,2090,1247,4584,4773
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Forest Hills,place-forhl,0,149852,77,0,1946,0,4774
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Green Street,place-grnst,1394,55964,77,18,727,1946,4775
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Haymarket,place-haecl,42681,18282,77,554,237,3151,4776
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Jackson Square,place-jaksn,6121,73403,77,79,953,3509,4777
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Massachusetts Ave.,place-masta,35251,44855,77,458,583,5164,4778
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Jackson Square,place-jaksn,588,1586,77,8,21,145,4779
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Massachusetts Ave.,place-masta,587,4152,77,8,54,308,4780
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Malden Center,place-mlmnl,31827,41,77,413,1,529,4781
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,North Station,place-north,710,12578,77,9,163,944,4782
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Oak Grove,place-ogmnl,8910,0,77,116,0,116,4783
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Roxbury Crossing,place-rcmnl,376,2490,77,5,32,158,4784
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Ruggles,place-rugg,563,9998,77,7,130,185,4785
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Stony Brook,place-sbmnl,162,797,77,2,10,136,4786
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,State Street,place-state,17240,11250,77,224,146,1013,4787
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Sullivan Square,place-sull,26814,2037,77,348,26,1093,4788
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Tufts Medical Center,place-tumnl,786,7536,77,10,98,529,4789
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Wellington,place-welln,18255,710,77,237,9,756,4790
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Assembly,place-astao,8404,3406,77,109,44,2708,4791
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Back Bay,place-bbsta,5317,57116,77,69,742,1400,4792
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Community College,place-ccmnl,8472,9223,77,110,120,3173,4793
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Chinatown,place-chncl,1314,15086,77,17,196,2507,4794
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Downtown Crossing,place-dwnxg,25116,105742,77,326,1373,2686,4795
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Forest Hills,place-forhl,0,29257,77,0,380,0,4796
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Green Street,place-grnst,552,5433,77,7,71,380,4797
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Haymarket,place-haecl,21441,19630,77,278,255,3236,4798
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Jackson Square,place-jaksn,4320,6333,77,56,82,470,4799
+1,Fall 2019,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Massachusetts Ave.,place-masta,4033,13029,77,52,169,1283,4800
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Malden Center,place-mlmnl,2652,378445,77,34,4915,2967,4823
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,North Station,place-north,140392,193456,77,1823,2512,14001,4825
+1,Fall 2019,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Assembly,place-astao,26335,7408,12,2195,617,11269,4827
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Assembly,place-astao,210,1149,77,3,15,95,4829
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Assembly,place-astao,5512,54518,77,72,708,2519,4830
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Oak Grove,place-ogmnl,0,228424,77,0,2967,0,4831
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Roxbury Crossing,place-rcmnl,43829,13467,77,569,175,2945,4832
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Ruggles,place-rugg,169011,24330,77,2195,316,4824,4833
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Stony Brook,place-sbmnl,28488,3904,77,370,51,2054,4834
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,State Street,place-state,205681,187202,77,2671,2431,14481,4835
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Sullivan Square,place-sull,26391,165994,77,343,2156,11615,4836
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Tufts Medical Center,place-tumnl,110388,19193,77,1434,249,10463,4837
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Wellington,place-welln,7446,234427,77,97,3045,7847,4838
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Assembly,place-astao,10784,41502,77,140,539,4166,4839
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Malden Center,place-mlmnl,24,3970,77,0,52,17,4840
+1,Fall 2019,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Malden Center,place-mlmnl,409,32580,8,51,4073,930,4841
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Back Bay,place-bbsta,135289,16860,77,1757,219,4051,4842
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Community College,place-ccmnl,15529,37194,77,202,483,5782,4843
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Chinatown,place-chncl,58343,16342,77,758,212,5012,4844
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Downtown Crossing,place-dwnxg,195717,104131,77,2542,1352,6202,4845
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Forest Hills,place-forhl,47822,0,77,621,0,621,4846
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Green Street,place-grnst,14263,3300,77,185,43,763,4847
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Haymarket,place-haecl,48851,44799,77,634,582,5896,4848
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Jackson Square,place-jaksn,21410,6038,77,278,78,1102,4849
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Massachusetts Ave.,place-masta,33328,12762,77,433,166,2513,4850
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Malden Center,place-mlmnl,2006,155802,77,26,2023,800,4851
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,North Station,place-north,73620,60710,77,956,788,6063,4852
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Oak Grove,place-ogmnl,0,61622,77,0,800,0,4853
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Roxbury Crossing,place-rcmnl,19861,5338,77,258,69,1290,4854
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Ruggles,place-rugg,83984,10390,77,1091,135,2246,4855
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Stony Brook,place-sbmnl,12643,1961,77,164,25,902,4856
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,State Street,place-state,68298,95923,77,887,1246,5843,4857
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Sullivan Square,place-sull,13075,106770,77,170,1387,4565,4858
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Tufts Medical Center,place-tumnl,42418,10415,77,551,135,4467,4859
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Wellington,place-welln,3878,109260,77,50,1419,2798,4860
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Assembly,place-astao,1596,10039,77,21,130,747,4861
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Back Bay,place-bbsta,31283,2855,77,406,37,912,4862
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Community College,place-ccmnl,1887,10175,77,25,132,1451,4863
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Chinatown,place-chncl,17989,2090,77,234,27,1245,4864
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Downtown Crossing,place-dwnxg,40362,21038,77,524,273,1496,4865
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Forest Hills,place-forhl,12396,0,77,161,0,161,4866
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Green Street,place-grnst,2279,637,77,30,8,182,4867
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Haymarket,place-haecl,16399,11282,77,213,147,1192,4868
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Jackson Square,place-jaksn,4390,1074,77,57,14,252,4869
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Massachusetts Ave.,place-masta,11332,2608,77,147,34,543,4870
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Malden Center,place-mlmnl,112,20491,77,1,266,84,4871
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,North Station,place-north,35765,7572,77,464,98,1558,4872
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Oak Grove,place-ogmnl,0,6504,77,0,84,0,4873
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Roxbury Crossing,place-rcmnl,3581,1071,77,47,14,284,4874
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Ruggles,place-rugg,13534,2327,77,176,30,430,4875
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Stony Brook,place-sbmnl,2512,491,77,33,6,209,4876
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,State Street,place-state,13835,42378,77,180,550,1126,4877
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Sullivan Square,place-sull,2165,47930,77,28,622,856,4878
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Tufts Medical Center,place-tumnl,11914,2158,77,155,28,1039,4879
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Wellington,place-welln,652,31264,77,8,406,349,4880
+1,Fall 2019,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Back Bay,place-bbsta,21957,48874,12,1830,4073,11399,4881
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,North Station,place-north,713,7021,77,9,91,280,4882
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Back Bay,place-bbsta,118246,93299,77,1536,1212,7437,4883
+1,Fall 2019,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,North Station,place-north,13224,12347,8,1653,1543,12175,4884
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Community College,place-ccmnl,19345,106380,77,251,1382,3865,4887
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Oak Grove,place-ogmnl,0,1284,77,0,17,0,4888
+1,Fall 2019,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Community College,place-ccmnl,12139,7398,12,1012,617,14316,4889
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Roxbury Crossing,place-rcmnl,4083,722,77,53,9,325,4890
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Back Bay,place-bbsta,4381,308,77,57,4,127,4891
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Ruggles,place-rugg,9007,1022,77,117,13,429,4893
+1,Fall 2019,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Chinatown,place-chncl,12926,24260,12,1077,2022,14487,4894
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Community College,place-ccmnl,293,837,77,4,11,200,4895
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Stony Brook,place-sbmnl,4939,11,77,64,0,114,4896
+1,Fall 2019,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Downtown Crossing,place-dwnxg,46742,65280,12,3895,5440,15431,4898
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Chinatown,place-chncl,2000,290,77,26,4,167,4900
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,State Street,place-state,7903,7762,77,103,101,378,4902
+1,Fall 2019,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Oak Grove,place-ogmnl,0,7442,8,0,930,0,4904
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Downtown Crossing,place-dwnxg,6284,2491,77,82,32,216,4905
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Sullivan Square,place-sull,1467,7290,77,19,95,167,4908
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Chinatown,place-chncl,51988,44831,77,675,582,7712,4909
+1,Fall 2019,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Forest Hills,place-forhl,0,35565,12,0,2964,0,4910
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Tufts Medical Center,place-tumnl,1353,1667,77,18,22,391,4911
+1,Fall 2019,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Roxbury Crossing,place-rcmnl,2967,1048,8,371,131,2929,4913
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Downtown Crossing,place-dwnxg,213436,242101,77,2772,3144,7340,4914
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Forest Hills,place-forhl,2877,0,77,37,0,37,4915
+1,Fall 2019,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Green Street,place-grnst,462,8268,12,39,689,2964,4916
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Green Street,place-grnst,673,810,77,9,11,36,4917
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Wellington,place-welln,244,5008,77,3,65,68,4919
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Forest Hills,place-forhl,230027,0,77,2987,0,2987,4920
+1,Fall 2019,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Ruggles,place-rugg,40222,2049,8,5028,256,7701,4921
+1,Fall 2019,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Haymarket,place-haecl,29472,28210,12,2456,2351,15417,4922
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Assembly,place-astao,252,18602,77,3,242,361,4924
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Haymarket,place-haecl,2258,1419,77,29,18,170,4925
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Back Bay,place-bbsta,25516,30170,77,331,392,2365,4927
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Jackson Square,place-jaksn,479,197,77,6,3,41,4929
+1,Fall 2019,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Stony Brook,place-sbmnl,3201,280,8,400,35,2149,4948
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Community College,place-ccmnl,573,22700,77,7,295,856,4949
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Massachusetts Ave.,place-masta,1382,342,77,18,4,74,4950
+1,Fall 2019,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Jackson Square,place-jaksn,2398,14193,12,200,1183,4440,4951
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Green Street,place-grnst,65333,5309,77,848,69,3767,4952
+1,Fall 2019,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Massachusetts Ave.,place-masta,9068,27661,12,756,2305,9850,4953
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Chinatown,place-chncl,2409,5967,77,31,77,2175,4954
+1,Fall 2019,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,State Street,place-state,16097,26256,8,2012,3282,12042,4955
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Haymarket,place-haecl,39583,87587,77,514,1137,5705,4956
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Malden Center,place-mlmnl,28,3366,77,0,44,5,4957
+1,Fall 2019,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Malden Center,place-mlmnl,57499,2383,12,4792,199,6861,4958
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Downtown Crossing,place-dwnxg,33418,64418,77,434,837,1773,4959
+1,Fall 2019,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Sullivan Square,place-sull,3563,21113,8,445,2639,8855,4961
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Jackson Square,place-jaksn,97375,9681,77,1265,126,5792,4962
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,North Station,place-north,3608,783,77,47,10,207,4963
+1,Fall 2019,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,North Station,place-north,30519,18568,12,2543,1547,15312,4964
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Forest Hills,place-forhl,136873,0,77,1778,0,1778,4965
+1,Fall 2019,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Tufts Medical Center,place-tumnl,9386,5069,8,1173,634,10895,5008
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Massachusetts Ave.,place-masta,62221,49016,77,808,637,7113,5009
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Oak Grove,place-ogmnl,0,352,77,0,5,0,5010
+1,Fall 2019,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Wellington,place-welln,1100,19627,8,138,2453,4952,5011
+1,Fall 2019,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Oak Grove,place-ogmnl,27220,0,12,2268,0,2268,5012
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Green Street,place-grnst,14330,2051,77,186,27,1937,5013
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Malden Center,place-mlmnl,1567,97137,77,20,1262,421,5014
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Haymarket,place-haecl,7608,19467,77,99,253,1465,5015
+1,Fall 2019,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Roxbury Crossing,place-rcmnl,2830,8472,12,236,706,5423,5016
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Jackson Square,place-jaksn,29634,1843,77,385,24,2483,5017
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,North Station,place-north,41079,95704,77,533,1243,4996,5018
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Massachusetts Ave.,place-masta,9247,11894,77,120,154,2426,5019
+1,Fall 2019,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Ruggles,place-rugg,5662,53145,12,472,4429,5893,5020
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Oak Grove,place-ogmnl,0,32454,77,0,421,0,5021
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Malden Center,place-mlmnl,154,13370,77,2,174,50,5022
+1,Fall 2019,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Stony Brook,place-sbmnl,736,10641,12,61,887,3614,5024
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,North Station,place-north,6707,31492,77,87,409,1143,5025
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Roxbury Crossing,place-rcmnl,62322,22819,77,809,296,6305,5026
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Roxbury Crossing,place-rcmnl,442,178,77,6,2,45,5027
+1,Fall 2019,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,State Street,place-state,46070,27359,12,3839,2280,16976,5029
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Oak Grove,place-ogmnl,0,3882,77,0,50,0,5030
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Ruggles,place-rugg,99466,50478,77,1292,656,6942,5031
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Ruggles,place-rugg,1635,415,77,21,5,60,5032
+1,Fall 2019,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Sullivan Square,place-sull,38555,6733,12,3213,561,13921,5034
+1,Fall 2019,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Tufts Medical Center,place-tumnl,9548,19681,12,796,1640,13642,5035
+1,Fall 2019,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Wellington,place-welln,36572,2607,12,3048,217,9692,5036
+1,Fall 2019,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Assembly,place-astao,13734,3829,8,1717,479,8981,5037
+1,Fall 2019,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Back Bay,place-bbsta,10556,26895,8,1320,3362,8170,5038
+1,Fall 2019,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Community College,place-ccmnl,6276,3464,8,785,433,11390,5039
+1,Fall 2019,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Chinatown,place-chncl,6316,13237,8,790,1655,10956,5040
+1,Fall 2019,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Downtown Crossing,place-dwnxg,24305,38712,8,3038,4839,11821,5041
+1,Fall 2019,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Forest Hills,place-forhl,0,12742,8,0,1593,0,5042
+1,Fall 2019,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Green Street,place-grnst,154,2960,8,19,370,1593,5043
+1,Fall 2019,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Haymarket,place-haecl,11338,12136,8,1417,1517,12260,5044
+1,Fall 2019,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Jackson Square,place-jaksn,915,5345,8,114,668,2374,5045
+1,Fall 2019,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Massachusetts Ave.,place-masta,3670,21266,8,459,2658,5971,5046
+1,Fall 2019,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Malden Center,place-mlmnl,30596,794,8,3825,99,5453,5047
+1,Fall 2019,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,North Station,place-north,16098,8343,8,2012,1043,12360,5048
+1,Fall 2019,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Oak Grove,place-ogmnl,13824,0,8,1728,0,1728,5049
+1,Fall 2019,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Roxbury Crossing,place-rcmnl,1067,3261,8,133,408,2927,5050
+1,Fall 2019,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Ruggles,place-rugg,2296,24450,8,287,3056,3202,5051
+1,Fall 2019,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Stony Brook,place-sbmnl,247,3688,8,31,461,1944,5052
+1,Fall 2019,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,State Street,place-state,25356,14461,8,3170,1808,13622,5053
+1,Fall 2019,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Sullivan Square,place-sull,19600,3139,8,2450,392,11039,5054
+1,Fall 2019,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Tufts Medical Center,place-tumnl,5076,11019,8,635,1377,10213,5055
+1,Fall 2019,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Wellington,place-welln,19580,1261,8,2448,158,7743,5056
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Assembly,place-astao,44,2926,77,1,38,130,5057
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Back Bay,place-bbsta,1806,6187,77,23,80,395,5058
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Community College,place-ccmnl,35,2889,77,0,38,243,5059
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Chinatown,place-chncl,642,719,77,8,9,390,5060
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Downtown Crossing,place-dwnxg,10810,11839,77,140,154,376,5061
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Forest Hills,place-forhl,837,0,77,11,0,11,5062
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Green Street,place-grnst,3330,313,77,43,4,50,5063
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Haymarket,place-haecl,3183,4448,77,41,58,362,5064
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Jackson Square,place-jaksn,12926,16,77,168,0,282,5065
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Massachusetts Ave.,place-masta,3022,1274,77,39,17,452,5066
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Roxbury Crossing,place-rcmnl,9401,16436,77,122,213,2392,5067
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Ruggles,place-rugg,20838,15558,77,271,202,2460,5068
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Stony Brook,place-sbmnl,14911,659,77,194,9,2122,5069
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Stony Brook,place-sbmnl,230,89,77,3,1,37,5070
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,State Street,place-state,24542,36380,77,319,472,1619,5071
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Sullivan Square,place-sull,3818,23547,77,50,306,600,5072
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,State Street,place-state,2585,6947,77,34,90,159,5073
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Tufts Medical Center,place-tumnl,4745,15827,77,62,206,2222,5074
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Sullivan Square,place-sull,516,7666,77,7,100,107,5075
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Wellington,place-welln,1050,11766,77,14,153,222,5076
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Tufts Medical Center,place-tumnl,1648,281,77,21,4,145,5077
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Assembly,place-astao,832,65395,77,11,849,975,5078
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Wellington,place-welln,255,3866,77,3,50,48,5079
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Back Bay,place-bbsta,144349,133138,77,1875,1729,9214,5081
+1,Fall 2019,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Assembly,place-astao,6839,30945,12,570,2579,8866,5082
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Stony Brook,place-sbmnl,71393,3123,77,927,41,4654,5083
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Community College,place-ccmnl,3820,76522,77,50,994,2476,5084
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Chinatown,place-chncl,11417,39724,77,148,516,8401,5085
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Downtown Crossing,place-dwnxg,146984,254655,77,1909,3307,7003,5086
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,State Street,place-state,72299,150194,77,939,1951,6328,5087
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Forest Hills,place-forhl,352753,0,77,4581,0,4581,5088
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Sullivan Square,place-sull,16547,71186,77,215,924,3156,5089
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Green Street,place-grnst,95815,6317,77,1244,82,5744,5090
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Tufts Medical Center,place-tumnl,56425,42390,77,733,551,7619,5091
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Haymarket,place-haecl,17819,76478,77,231,993,4800,5092
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Wellington,place-welln,4103,70059,77,53,910,1663,5093
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Jackson Square,place-jaksn,115639,5230,77,1502,68,8501,5094
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Massachusetts Ave.,place-masta,59260,49430,77,770,642,9069,5095
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Assembly,place-astao,8877,42894,77,115,557,3991,5096
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Malden Center,place-mlmnl,1000,35380,77,13,459,111,5097
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,North Station,place-north,30864,137147,77,401,1781,3420,5098
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Oak Grove,place-ogmnl,0,8525,77,0,111,0,5099
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Roxbury Crossing,place-rcmnl,62668,44567,77,814,579,8736,5100
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Ruggles,place-rugg,70612,54815,77,917,712,8941,5101
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Stony Brook,place-sbmnl,104197,2288,77,1353,30,7067,5102
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,State Street,place-state,54729,165700,77,711,2152,5562,5103
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Sullivan Square,place-sull,13044,63995,77,169,831,1814,5104
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Tufts Medical Center,place-tumnl,23852,58144,77,310,755,8769,5105
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Wellington,place-welln,1840,34046,77,24,442,557,5106
+1,Fall 2019,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Back Bay,place-bbsta,44195,21537,12,3683,1795,12947,5107
+1,Fall 2019,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Community College,place-ccmnl,4012,21855,12,334,1821,13499,5109
+1,Fall 2019,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Chinatown,place-chncl,27034,14120,12,2253,1177,14659,5110
+1,Fall 2019,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Downtown Crossing,place-dwnxg,67597,49984,12,5633,4165,16126,5111
+1,Fall 2019,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Forest Hills,place-forhl,33872,0,12,2823,0,2823,5112
+1,Fall 2019,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Green Street,place-grnst,7941,873,12,662,73,3412,5113
+1,Fall 2019,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Haymarket,place-haecl,32359,31242,12,2697,2604,14560,5115
+1,Fall 2019,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Jackson Square,place-jaksn,13816,2118,12,1151,177,5140,5117
+1,Fall 2019,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Massachusetts Ave.,place-masta,25973,18638,12,2164,1553,11059,5119
+1,Fall 2019,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Malden Center,place-mlmnl,619,60031,12,52,5003,1113,5121
+1,Fall 2019,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,North Station,place-north,28741,23631,12,2395,1969,14986,5123
+1,Fall 2019,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Oak Grove,place-ogmnl,0,13350,12,0,1113,0,5125
+1,Fall 2019,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Roxbury Crossing,place-rcmnl,8287,2870,12,691,239,5591,5126
+1,Fall 2019,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Ruggles,place-rugg,63489,5209,12,5291,434,10448,5128
+1,Fall 2019,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Stony Brook,place-sbmnl,9765,728,12,814,61,4165,5129
+1,Fall 2019,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,State Street,place-state,28351,48267,12,2363,4022,14467,5130
+1,Fall 2019,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Sullivan Square,place-sull,7716,39203,12,643,3267,10875,5131
+1,Fall 2019,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Tufts Medical Center,place-tumnl,16741,9115,12,1395,760,13582,5132
+1,Fall 2019,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Wellington,place-welln,2324,35953,12,194,2996,6064,5133
+1,Fall 2019,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Assembly,place-astao,3581,16281,8,448,2035,7268,5134
+1,Fall 2019,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Back Bay,place-bbsta,25616,10032,8,3202,1254,10356,5135
+1,Fall 2019,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Community College,place-ccmnl,2153,11162,8,269,1395,11049,5136
+1,Fall 2019,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Chinatown,place-chncl,15640,7176,8,1955,897,11954,5137
+1,Fall 2019,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Downtown Crossing,place-dwnxg,39647,28780,8,4956,3598,13312,5138
+1,Fall 2019,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Forest Hills,place-forhl,11831,0,8,1479,0,1479,5139
+1,Fall 2019,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Green Street,place-grnst,2738,296,8,342,37,1784,5140
+1,Fall 2019,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Haymarket,place-haecl,12971,12784,8,1621,1598,12065,5141
+1,Fall 2019,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Jackson Square,place-jaksn,5020,700,8,628,88,2689,5142
+1,Fall 2019,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Massachusetts Ave.,place-masta,11504,5848,8,1438,731,8408,5143
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Back Bay,place-bbsta,108204,46051,77,1405,598,5291,5144
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Community College,place-ccmnl,17491,59874,77,227,778,5306,5147
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Chinatown,place-chncl,54881,22138,77,713,288,6217,5149
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Downtown Crossing,place-dwnxg,227987,162838,77,2961,2115,7063,5151
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Forest Hills,place-forhl,116360,0,77,1511,0,1511,5153
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Green Street,place-grnst,28020,5871,77,364,76,1799,5155
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Haymarket,place-haecl,47604,60169,77,618,781,6083,5157
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Jackson Square,place-jaksn,45350,13542,77,589,176,2467,5179
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Massachusetts Ave.,place-masta,41153,25638,77,534,333,4484,5180
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Malden Center,place-mlmnl,1508,144060,77,20,1871,946,5181
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,North Station,place-north,57349,74752,77,745,971,5857,5182
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Oak Grove,place-ogmnl,0,72845,77,0,946,0,5183
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Roxbury Crossing,place-rcmnl,62237,14208,77,808,185,3091,5184
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Ruggles,place-rugg,118300,26567,77,1536,345,4282,5185
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Stony Brook,place-sbmnl,22783,3144,77,296,41,2054,5186
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,State Street,place-state,82726,145647,77,1074,1892,6246,5187
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Sullivan Square,place-sull,14936,82153,77,194,1067,4433,5188
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Tufts Medical Center,place-tumnl,61487,22917,77,799,298,5792,5189
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Wellington,place-welln,3901,95848,77,51,1245,2797,5190
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Assembly,place-astao,19136,82272,77,249,1068,10795,5191
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Back Bay,place-bbsta,342673,46327,77,4450,602,9279,5192
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Community College,place-ccmnl,33201,77323,77,431,1004,13428,5193
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Chinatown,place-chncl,90045,30998,77,1169,403,11230,5194
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Downtown Crossing,place-dwnxg,456299,224440,77,5926,2915,14241,5195
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Forest Hills,place-forhl,108691,0,77,1412,0,1412,5196
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Green Street,place-grnst,28326,3417,77,368,44,1735,5197
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Haymarket,place-haecl,90454,74391,77,1175,966,14690,5198
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Jackson Square,place-jaksn,50914,12693,77,661,165,2551,5199
+1,Fall 2019,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Massachusetts Ave.,place-masta,69561,22878,77,903,297,5430,5200
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Assembly,place-astao,315,184,19,17,10,806,5609
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Back Bay,place-bbsta,137,3297,19,7,174,356,5610
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Community College,place-ccmnl,751,579,19,40,30,1141,5611
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Chinatown,place-chncl,58,1307,19,3,69,609,5612
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Downtown Crossing,place-dwnxg,1262,7525,19,66,396,675,5613
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Community College,place-ccmnl,1709,281,19,90,15,544,5616
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Community College,place-ccmnl,10619,12279,19,559,646,13227,5618
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Oak Grove,place-ogmnl,7280,0,19,383,0,383,5619
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Forest Hills,place-forhl,0,2336,19,0,123,0,5621
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Green Street,place-grnst,40,205,19,2,11,123,5622
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Haymarket,place-haecl,1413,1196,19,74,63,981,5623
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Jackson Square,place-jaksn,82,400,19,4,21,139,5624
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Massachusetts Ave.,place-masta,157,868,19,8,46,319,5625
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Malden Center,place-mlmnl,7496,15,19,395,1,563,5626
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,North Station,place-north,157,3412,19,8,180,970,5627
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Oak Grove,place-ogmnl,3211,0,19,169,0,169,5628
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Roxbury Crossing,place-rcmnl,53,736,19,3,39,155,5629
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Ruggles,place-rugg,91,2510,19,5,132,191,5630
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Stony Brook,place-sbmnl,52,187,19,3,10,132,5631
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,State Street,place-state,3210,2769,19,169,146,1004,5632
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Sullivan Square,place-sull,6735,538,19,354,28,1132,5633
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Tufts Medical Center,place-tumnl,213,1855,19,11,98,522,5634
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Wellington,place-welln,4608,123,19,243,6,799,5635
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Assembly,place-astao,1972,737,19,104,39,2809,5636
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Back Bay,place-bbsta,1208,12805,19,64,674,1427,5637
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Community College,place-ccmnl,2649,2387,19,139,126,3302,5638
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Chinatown,place-chncl,267,4237,19,14,223,2477,5639
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Downtown Crossing,place-dwnxg,7235,25472,19,381,1341,2686,5640
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Forest Hills,place-forhl,0,7389,19,0,389,0,5641
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Green Street,place-grnst,123,1134,19,6,60,389,5642
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Haymarket,place-haecl,4935,4966,19,260,261,3141,5643
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Jackson Square,place-jaksn,1140,1510,19,60,79,460,5644
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Massachusetts Ave.,place-masta,768,3443,19,40,181,1286,5645
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Malden Center,place-mlmnl,20013,91,19,1053,5,2100,5646
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,North Station,place-north,5773,8799,19,304,463,3143,5647
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Oak Grove,place-ogmnl,19969,0,19,1051,0,1051,5648
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Roxbury Crossing,place-rcmnl,551,4640,19,29,244,480,5649
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Ruggles,place-rugg,1156,12378,19,61,651,695,5650
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Stony Brook,place-sbmnl,253,601,19,13,32,442,5651
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,State Street,place-state,17571,7988,19,925,420,3645,5652
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Sullivan Square,place-sull,10727,1630,19,565,86,3288,5653
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Tufts Medical Center,place-tumnl,774,9128,19,41,480,2037,5654
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Wellington,place-welln,12539,286,19,660,15,2744,5655
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Assembly,place-astao,12353,2963,19,650,156,11592,5656
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Back Bay,place-bbsta,6955,82682,19,366,4352,3962,5657
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Chinatown,place-chncl,1896,20143,19,100,1060,9292,5659
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Chinatown,place-chncl,3461,697,19,182,37,1571,5660
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Roxbury Crossing,place-rcmnl,8728,9385,19,459,494,4016,5663
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Downtown Crossing,place-dwnxg,37037,104850,19,1949,5518,10252,5664
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Downtown Crossing,place-dwnxg,11498,6048,19,605,318,1426,5667
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Forest Hills,place-forhl,0,13221,19,0,696,0,5670
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Green Street,place-grnst,87,3156,19,5,166,696,5674
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Forest Hills,place-forhl,0,16724,19,0,880,0,5678
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Ruggles,place-rugg,9398,23328,19,495,1228,4051,5680
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Haymarket,place-haecl,4022,1262,19,212,66,997,5681
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Green Street,place-grnst,430,3959,19,23,208,880,5685
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Stony Brook,place-sbmnl,635,10425,19,33,549,2775,5687
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,State Street,place-state,29379,14063,19,1546,740,5818,5688
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Sullivan Square,place-sull,19730,2362,19,1038,124,3488,5689
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Tufts Medical Center,place-tumnl,7111,10500,19,374,553,5579,5690
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Wellington,place-welln,11516,859,19,606,45,2151,5691
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Assembly,place-astao,18142,1691,19,955,89,3161,5692
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Back Bay,place-bbsta,30219,39686,19,1590,2089,9972,5693
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Community College,place-ccmnl,17788,4135,19,936,218,5010,5694
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Chinatown,place-chncl,9051,7480,19,476,394,10251,5695
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Downtown Crossing,place-dwnxg,77071,52402,19,4056,2758,10168,5696
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Forest Hills,place-forhl,0,83377,19,0,4388,0,5697
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Green Street,place-grnst,1092,23181,19,57,1220,4388,5698
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Haymarket,place-haecl,25003,10477,19,1316,551,6965,5699
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Jackson Square,place-jaksn,3040,28660,19,160,1508,6928,5700
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Massachusetts Ave.,place-masta,12260,20032,19,645,1054,9563,5701
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Malden Center,place-mlmnl,20950,984,19,1103,52,1531,5702
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,North Station,place-north,33169,10542,19,1746,555,6201,5703
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Oak Grove,place-ogmnl,9131,0,19,481,0,481,5704
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Roxbury Crossing,place-rcmnl,7782,17775,19,410,936,8276,5705
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Ruggles,place-rugg,16285,30744,19,857,1618,8802,5706
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Stony Brook,place-sbmnl,975,27136,19,51,1428,5551,5707
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,State Street,place-state,50826,14642,19,2675,771,8870,5708
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Sullivan Square,place-sull,24808,3342,19,1306,176,4291,5709
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Tufts Medical Center,place-tumnl,13977,9799,19,736,516,10471,5710
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Wellington,place-welln,15338,820,19,807,43,2296,5711
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Assembly,place-astao,7561,933,19,398,49,1448,5712
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Back Bay,place-bbsta,19831,14176,19,1044,746,5838,5713
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Community College,place-ccmnl,11471,1326,19,604,70,2469,5714
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Chinatown,place-chncl,9368,3526,19,493,186,5448,5715
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Downtown Crossing,place-dwnxg,46680,23999,19,2457,1263,5140,5716
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Forest Hills,place-forhl,0,46119,19,0,2427,0,5717
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Green Street,place-grnst,456,14687,19,24,773,2427,5718
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Haymarket,place-haecl,12746,4895,19,671,258,3223,5719
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Jackson Square,place-jaksn,1898,18533,19,100,975,4102,5720
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Massachusetts Ave.,place-masta,9035,10665,19,476,561,5752,5721
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Malden Center,place-mlmnl,11369,880,19,598,46,802,5722
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,North Station,place-north,11571,5101,19,609,268,2809,5723
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Oak Grove,place-ogmnl,4752,0,19,250,0,250,5724
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Roxbury Crossing,place-rcmnl,3827,10581,19,201,557,4978,5725
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Ruggles,place-rugg,9526,17485,19,501,920,5333,5726
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Stony Brook,place-sbmnl,713,18301,19,38,963,3176,5727
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,State Street,place-state,22080,8326,19,1162,438,3946,5728
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Sullivan Square,place-sull,11149,1907,19,587,100,1935,5729
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Tufts Medical Center,place-tumnl,6463,4707,19,340,248,5540,5730
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Wellington,place-welln,6174,522,19,325,27,1100,5731
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Assembly,place-astao,1951,56,19,103,3,348,5732
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Back Bay,place-bbsta,5450,2934,19,287,154,1745,5733
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Haymarket,place-haecl,13640,18870,19,718,993,13675,5736
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Jackson Square,place-jaksn,365,6410,19,19,337,1104,5739
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Massachusetts Ave.,place-masta,3002,2403,19,158,126,1777,5743
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Jackson Square,place-jaksn,3280,5214,19,173,274,1206,5746
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Malden Center,place-mlmnl,2656,61,19,140,3,180,5749
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Massachusetts Ave.,place-masta,2713,14252,19,143,750,3355,5752
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Malden Center,place-mlmnl,92433,619,19,4865,33,8312,5796
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,North Station,place-north,6459,614,19,340,32,851,5798
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,North Station,place-north,41111,27369,19,2164,1440,13950,5800
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Oak Grove,place-ogmnl,834,0,19,44,0,44,5802
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Roxbury Crossing,place-rcmnl,620,2720,19,33,143,1422,5806
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Oak Grove,place-ogmnl,66108,0,19,3479,0,3479,5807
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Ruggles,place-rugg,2238,6878,19,118,362,1533,5810
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Roxbury Crossing,place-rcmnl,1702,10655,19,90,561,1308,5812
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Stony Brook,place-sbmnl,97,4784,19,5,252,857,5815
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Ruggles,place-rugg,2901,32835,19,153,1728,1779,5817
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,State Street,place-state,6052,3355,19,319,177,1139,5820
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Stony Brook,place-sbmnl,744,3406,19,39,179,1066,5822
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,State Street,place-state,43148,40367,19,2271,2125,13821,5823
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Sullivan Square,place-sull,38170,5445,19,2009,287,13314,5824
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Tufts Medical Center,place-tumnl,3420,28966,19,180,1525,7947,5825
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Wellington,place-welln,54151,1215,19,2850,64,11098,5826
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Assembly,place-astao,11426,2957,19,601,156,7359,5827
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Back Bay,place-bbsta,10932,47176,19,575,2483,5455,5828
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Community College,place-ccmnl,23648,12092,19,1245,636,9566,5829
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Chinatown,place-chncl,6375,23082,19,336,1215,8039,5830
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Downtown Crossing,place-dwnxg,47583,79702,19,2504,4195,8919,5831
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Forest Hills,place-forhl,0,27707,19,0,1458,0,5832
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Green Street,place-grnst,715,6830,19,38,359,1458,5833
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Haymarket,place-haecl,19775,16557,19,1041,871,10088,5834
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Jackson Square,place-jaksn,2462,12338,19,130,649,2162,5835
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Massachusetts Ave.,place-masta,4839,19380,19,255,1020,4690,5836
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Malden Center,place-mlmnl,73038,4023,19,3844,212,5064,5837
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,North Station,place-north,23817,17118,19,1254,901,9919,5838
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Oak Grove,place-ogmnl,27207,0,19,1432,0,1432,5839
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Roxbury Crossing,place-rcmnl,3573,11003,19,188,579,2682,5840
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Ruggles,place-rugg,5310,36027,19,279,1896,3073,5841
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Stony Brook,place-sbmnl,693,7955,19,36,419,1780,5842
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,State Street,place-state,37243,27342,19,1960,1439,10609,5843
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Sullivan Square,place-sull,34657,4272,19,1824,225,8958,5844
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Tufts Medical Center,place-tumnl,7250,20106,19,382,1058,7363,5845
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Wellington,place-welln,36478,1354,19,1920,71,6913,5846
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Assembly,place-astao,9297,1273,19,489,67,2573,5847
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Back Bay,place-bbsta,14697,24315,19,774,1280,5073,5848
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Community College,place-ccmnl,18684,4463,19,983,235,4236,5849
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Chinatown,place-chncl,5051,7153,19,266,376,5758,5850
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Downtown Crossing,place-dwnxg,40795,39831,19,2147,2096,5869,5851
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Forest Hills,place-forhl,0,45328,19,0,2386,0,5852
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Green Street,place-grnst,967,8371,19,51,441,2386,5853
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Haymarket,place-haecl,15402,8045,19,811,423,5012,5854
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Jackson Square,place-jaksn,2083,15862,19,110,835,3291,5855
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Massachusetts Ave.,place-masta,5734,11236,19,302,591,4784,5856
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Malden Center,place-mlmnl,23383,451,19,1231,24,1590,5857
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,North Station,place-north,13939,6558,19,734,345,4624,5858
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Sullivan Square,place-sull,2825,531,19,149,28,469,5859
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Tufts Medical Center,place-tumnl,2203,1405,19,116,74,1613,5862
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Wellington,place-welln,1440,150,19,76,8,248,5864
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Assembly,place-astao,236,8,19,12,0,41,5866
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Back Bay,place-bbsta,955,381,19,50,20,313,5868
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Community College,place-ccmnl,94,19,19,5,1,62,5871
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Chinatown,place-chncl,1048,58,19,55,3,270,5873
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Downtown Crossing,place-dwnxg,1766,576,19,93,30,218,5877
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Forest Hills,place-forhl,0,1022,19,0,54,0,5881
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Green Street,place-grnst,5,651,19,0,34,54,5884
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Haymarket,place-haecl,412,173,19,22,9,113,5917
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Jackson Square,place-jaksn,35,1360,19,2,72,141,5919
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Massachusetts Ave.,place-masta,484,557,19,25,29,309,5961
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Malden Center,place-mlmnl,311,2,19,16,0,19,5962
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,North Station,place-north,786,68,19,41,4,100,5963
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Oak Grove,place-ogmnl,50,0,19,3,0,3,5964
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Roxbury Crossing,place-rcmnl,80,630,19,4,33,211,5965
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Ruggles,place-rugg,311,1629,19,16,86,240,5966
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Stony Brook,place-sbmnl,11,1020,19,1,54,88,5967
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,State Street,place-state,1338,526,19,70,28,156,5968
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Sullivan Square,place-sull,429,95,19,23,5,58,5969
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Tufts Medical Center,place-tumnl,362,129,19,19,7,283,5970
+1,Fall 2018,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Wellington,place-welln,194,3,19,10,0,29,5971
+1,Fall 2018,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Assembly,place-astao,12912,3702,5,2582,740,15516,5972
+1,Fall 2018,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Back Bay,place-bbsta,6030,22110,5,1206,4422,7910,5973
+1,Fall 2018,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Community College,place-ccmnl,7064,4183,5,1413,837,19733,5974
+1,Fall 2018,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Chinatown,place-chncl,4460,11368,5,892,2274,12382,5975
+1,Fall 2018,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Downtown Crossing,place-dwnxg,17129,41133,5,3426,8227,13764,5976
+1,Fall 2018,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Forest Hills,place-forhl,0,1640,5,0,328,0,5977
+1,Fall 2018,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Green Street,place-grnst,450,173,5,90,35,328,5978
+1,Fall 2018,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Haymarket,place-haecl,10660,16134,5,2132,3227,17817,5979
+1,Fall 2018,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Jackson Square,place-jaksn,691,6457,5,138,1291,138,5980
+1,Fall 2018,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Massachusetts Ave.,place-masta,1412,18338,5,282,3668,4524,5981
+1,Fall 2018,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Malden Center,place-mlmnl,34926,1013,5,6985,203,10088,5982
+1,Fall 2018,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,North Station,place-north,7919,12026,5,1584,2405,18912,5983
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Community College,place-ccmnl,5686,9339,19,299,492,7250,6001
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Chinatown,place-chncl,15998,4068,19,842,214,5613,6002
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Downtown Crossing,place-dwnxg,57515,27548,19,3027,1450,7190,6003
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Oak Grove,place-ogmnl,0,8098,19,0,426,0,6004
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Forest Hills,place-forhl,13530,0,19,712,0,712,6005
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Roxbury Crossing,place-rcmnl,15526,5254,19,817,277,6489,6006
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Green Street,place-grnst,3799,532,19,200,28,884,6007
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Ruggles,place-rugg,24512,12538,19,1290,660,7119,6008
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Haymarket,place-haecl,16298,11894,19,858,626,7223,6009
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Jackson Square,place-jaksn,6138,1763,19,323,93,1288,6010
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Stony Brook,place-sbmnl,18020,761,19,948,40,4836,6011
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Community College,place-ccmnl,109,6716,19,6,353,842,6012
+1,Fall 2018,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Oak Grove,place-ogmnl,16529,0,5,3306,0,3306,6013
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Oak Grove,place-ogmnl,0,599,19,0,32,0,6014
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Massachusetts Ave.,place-masta,8789,3150,19,463,166,2911,6017
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Malden Center,place-mlmnl,735,59609,19,39,3137,1276,6018
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,North Station,place-north,18045,13887,19,950,731,7442,6019
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Oak Grove,place-ogmnl,0,24248,19,0,1276,0,6020
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Roxbury Crossing,place-rcmnl,5405,1228,19,284,65,1508,6021
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Ruggles,place-rugg,24167,3154,19,1272,166,2614,6022
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Stony Brook,place-sbmnl,3920,619,19,206,33,1058,6023
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,State Street,place-state,19353,23121,19,1019,1217,6992,6024
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Sullivan Square,place-sull,3943,27026,19,208,1422,6035,6025
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Tufts Medical Center,place-tumnl,11204,2299,19,590,121,4985,6026
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Wellington,place-welln,1741,25869,19,92,1362,4375,6027
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Assembly,place-astao,575,2585,19,30,136,1721,6028
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Back Bay,place-bbsta,9702,718,19,511,38,1122,6029
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Community College,place-ccmnl,753,2599,19,40,137,2428,6030
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Chinatown,place-chncl,5708,530,19,300,28,1557,6031
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Downtown Crossing,place-dwnxg,15896,5871,19,837,309,2084,6032
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Forest Hills,place-forhl,3950,0,19,208,0,208,6033
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Green Street,place-grnst,847,63,19,45,3,249,6034
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Haymarket,place-haecl,8344,3150,19,439,166,2079,6035
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Jackson Square,place-jaksn,1432,383,19,75,20,329,6036
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Massachusetts Ave.,place-masta,2977,646,19,157,34,649,6037
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Malden Center,place-mlmnl,159,16821,19,8,885,423,6038
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,North Station,place-north,10394,1918,19,547,101,2526,6039
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Oak Grove,place-ogmnl,0,8030,19,0,423,0,6040
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Roxbury Crossing,place-rcmnl,1032,249,19,54,13,370,6041
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Ruggles,place-rugg,3707,740,19,195,39,526,6042
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Stony Brook,place-sbmnl,634,174,19,33,9,273,6043
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,State Street,place-state,5153,10437,19,271,549,1806,6044
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Sullivan Square,place-sull,845,12279,19,44,646,1827,6045
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Tufts Medical Center,place-tumnl,3588,501,19,189,26,1284,6046
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Wellington,place-welln,260,8263,19,14,435,1300,6048
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Assembly,place-astao,114,370,19,6,19,254,6049
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Back Bay,place-bbsta,1817,125,19,96,7,168,6050
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Community College,place-ccmnl,81,239,19,4,13,371,6051
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Chinatown,place-chncl,848,57,19,45,3,238,6052
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Downtown Crossing,place-dwnxg,2613,705,19,138,37,338,6053
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Forest Hills,place-forhl,472,0,19,25,0,25,6054
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Green Street,place-grnst,96,17,19,5,1,29,6055
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Haymarket,place-haecl,1191,548,19,63,29,323,6056
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Jackson Square,place-jaksn,176,55,19,9,3,39,6057
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Massachusetts Ave.,place-masta,410,84,19,22,4,79,6058
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Malden Center,place-mlmnl,16,3196,19,1,168,32,6059
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,North Station,place-north,1253,190,19,66,10,379,6060
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,State Street,place-state,16984,35917,19,894,1890,6264,6061
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Roxbury Crossing,place-rcmnl,166,31,19,9,2,46,6064
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Sullivan Square,place-sull,4038,17926,19,213,943,2976,6066
+1,Fall 2018,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Roxbury Crossing,place-rcmnl,174,1537,5,35,307,1291,6067
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Ruggles,place-rugg,423,124,19,22,7,62,6070
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Chinatown,place-chncl,662,1452,19,35,76,2266,6071
+1,Fall 2018,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Ruggles,place-rugg,850,15652,5,170,3130,1564,6072
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Tufts Medical Center,place-tumnl,13972,10254,19,735,540,7790,6074
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Stony Brook,place-sbmnl,88,17,19,5,1,33,6075
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Downtown Crossing,place-dwnxg,9516,16186,19,501,852,1915,6076
+1,Fall 2018,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Stony Brook,place-sbmnl,768,96,5,154,19,273,6077
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Wellington,place-welln,903,13057,19,48,687,1764,6081
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,State Street,place-state,1123,2049,19,59,108,289,6082
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Forest Hills,place-forhl,33929,0,19,1786,0,1786,6083
+1,Fall 2018,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,State Street,place-state,18338,14603,5,3668,2921,18564,6084
+1,Fall 2018,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Sullivan Square,place-sull,21639,3435,5,4328,687,19157,6085
+1,Fall 2018,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Tufts Medical Center,place-tumnl,2868,9149,5,574,1830,11126,6086
+1,Fall 2018,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Wellington,place-welln,18950,1019,5,3790,204,13674,6087
+1,Fall 2018,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Assembly,place-astao,9613,2720,5,1923,544,11141,6088
+1,Fall 2018,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Back Bay,place-bbsta,4498,15756,5,900,3151,6610,6089
+1,Fall 2018,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Community College,place-ccmnl,5218,2910,5,1044,582,14312,6090
+1,Fall 2018,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Chinatown,place-chncl,3467,9551,5,693,1910,9802,6091
+1,Fall 2018,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Downtown Crossing,place-dwnxg,14055,33953,5,2811,6791,11018,6092
+1,Fall 2018,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Forest Hills,place-forhl,0,708,5,0,142,0,6093
+1,Fall 2018,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Green Street,place-grnst,95,230,5,19,46,142,6094
+1,Fall 2018,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Haymarket,place-haecl,7919,9734,5,1584,1947,13966,6095
+1,Fall 2018,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Jackson Square,place-jaksn,847,4912,5,169,982,170,6096
+1,Fall 2018,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Massachusetts Ave.,place-masta,1508,8796,5,302,1759,5153,6097
+1,Fall 2018,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Malden Center,place-mlmnl,25921,1216,5,5184,243,7289,6098
+1,Fall 2018,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,North Station,place-north,9192,9109,5,1838,1822,14329,6099
+1,Fall 2018,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Oak Grove,place-ogmnl,11742,0,5,2348,0,2348,6100
+1,Fall 2018,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Roxbury Crossing,place-rcmnl,128,1110,5,26,222,983,6101
+1,Fall 2018,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Ruggles,place-rugg,509,20375,5,102,4075,1179,6102
+1,Fall 2018,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Stony Brook,place-sbmnl,181,187,5,36,37,169,6103
+1,Fall 2018,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,State Street,place-state,16239,11078,5,3248,2216,14998,6104
+1,Fall 2018,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Sullivan Square,place-sull,15762,2213,5,3152,443,13851,6105
+1,Fall 2018,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Tufts Medical Center,place-tumnl,2453,7152,5,491,1430,8862,6106
+1,Fall 2018,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Wellington,place-welln,13158,794,5,2632,159,9762,6107
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Assembly,place-astao,4,551,19,0,29,114,6108
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Back Bay,place-bbsta,538,1186,19,28,62,386,6109
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Community College,place-ccmnl,35,946,19,2,50,229,6110
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Chinatown,place-chncl,219,206,19,12,11,385,6111
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Downtown Crossing,place-dwnxg,2282,2890,19,120,152,353,6112
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Forest Hills,place-forhl,0,0,19,0,0,0,6113
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Green Street,place-grnst,710,0,19,37,0,37,6114
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Haymarket,place-haecl,806,820,19,42,43,340,6115
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Jackson Square,place-jaksn,3432,4,19,181,0,273,6116
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Massachusetts Ave.,place-masta,644,350,19,34,18,420,6117
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Malden Center,place-mlmnl,5,982,19,0,52,15,6118
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,North Station,place-north,199,1382,19,10,73,277,6119
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Oak Grove,place-ogmnl,0,282,19,0,15,0,6120
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Roxbury Crossing,place-rcmnl,983,133,19,52,7,318,6121
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Ruggles,place-rugg,1952,310,19,103,16,404,6122
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Stony Brook,place-sbmnl,1053,0,19,55,0,93,6123
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,State Street,place-state,1686,1926,19,89,101,340,6124
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Sullivan Square,place-sull,328,1972,19,17,104,143,6125
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Tufts Medical Center,place-tumnl,433,462,19,23,24,384,6126
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Wellington,place-welln,38,945,19,2,50,66,6127
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Assembly,place-astao,52,3916,19,3,206,348,6128
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Back Bay,place-bbsta,6232,7381,19,328,388,2461,6129
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Green Street,place-grnst,3607,197,19,190,10,1965,6133
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Sullivan Square,place-sull,239,2207,19,13,116,267,6134
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Assembly,place-astao,1814,9367,19,95,493,3980,6136
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Haymarket,place-haecl,1889,4882,19,99,257,1566,6137
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Back Bay,place-bbsta,26354,11357,19,1387,598,5333,6140
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Tufts Medical Center,place-tumnl,567,38,19,30,2,196,6141
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Jackson Square,place-jaksn,7368,564,19,388,30,2532,6142
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Community College,place-ccmnl,4682,17197,19,246,905,5242,6146
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Wellington,place-welln,44,1085,19,2,57,199,6147
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Massachusetts Ave.,place-masta,2183,3004,19,115,158,2521,6148
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Chinatown,place-chncl,13939,5633,19,734,296,6249,6194
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Malden Center,place-mlmnl,77,3330,19,4,175,56,6195
+1,Fall 2018,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Assembly,place-astao,3600,15608,5,720,3122,13215,6196
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,North Station,place-north,1456,8613,19,77,453,1190,6197
+1,Fall 2018,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Back Bay,place-bbsta,31531,7400,5,6306,1480,16147,6198
+1,Fall 2018,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Community College,place-ccmnl,2387,10456,5,477,2091,19131,6200
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Oak Grove,place-ogmnl,0,1056,19,0,56,0,6201
+1,Fall 2018,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Chinatown,place-chncl,16010,5863,5,3202,1173,19360,6202
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Downtown Crossing,place-dwnxg,52027,40476,19,2738,2130,6857,6204
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Roxbury Crossing,place-rcmnl,2524,3559,19,133,187,2478,6205
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Forest Hills,place-forhl,29178,0,19,1536,0,1536,6209
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Green Street,place-grnst,6144,674,19,323,35,1824,6212
+1,Fall 2018,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Downtown Crossing,place-dwnxg,40837,30749,5,8167,6150,21378,6213
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Ruggles,place-rugg,5497,3848,19,289,203,2564,6216
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Haymarket,place-haecl,12235,14058,19,644,740,5945,6217
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Stony Brook,place-sbmnl,4173,208,19,220,11,2174,6218
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Jackson Square,place-jaksn,10737,3360,19,565,177,2485,6221
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,State Street,place-state,5918,9555,19,311,503,1724,6222
+1,Fall 2018,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Forest Hills,place-forhl,4860,0,5,972,0,972,6223
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Sullivan Square,place-sull,1040,6554,19,55,345,552,6224
+1,Fall 2018,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Green Street,place-grnst,554,1109,5,111,222,861,6227
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Massachusetts Ave.,place-masta,9787,5841,19,515,307,4544,6228
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Tufts Medical Center,place-tumnl,1199,4099,19,63,216,2308,6229
+1,Fall 2018,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Haymarket,place-haecl,18220,16243,5,3644,3249,19782,6232
+1,Fall 2018,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Jackson Square,place-jaksn,9712,2730,5,1942,546,1942,6233
+1,Fall 2018,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Massachusetts Ave.,place-masta,10332,3721,5,2066,744,11320,6234
+1,Fall 2018,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Malden Center,place-mlmnl,472,37470,5,94,7494,2449,6235
+1,Fall 2018,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,North Station,place-north,14500,9687,5,2900,1937,20745,6236
+1,Fall 2018,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Oak Grove,place-ogmnl,0,12244,5,0,2449,0,6237
+1,Fall 2018,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Roxbury Crossing,place-rcmnl,1560,349,5,312,70,2185,6238
+1,Fall 2018,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Ruggles,place-rugg,40009,941,5,8002,188,9998,6239
+1,Fall 2018,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Stony Brook,place-sbmnl,215,1790,5,43,358,546,6240
+1,Fall 2018,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,State Street,place-state,15153,25107,5,3031,5021,19387,6241
+1,Fall 2018,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Sullivan Square,place-sull,3873,21448,5,775,4290,15616,6242
+1,Fall 2018,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Tufts Medical Center,place-tumnl,9334,3413,5,1867,683,17331,6243
+1,Fall 2018,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Wellington,place-welln,1174,18006,5,235,3601,9848,6244
+1,Fall 2018,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Assembly,place-astao,2698,11421,5,540,2284,9671,6245
+1,Fall 2018,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Back Bay,place-bbsta,15662,5298,5,3132,1060,10116,6246
+1,Fall 2018,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Community College,place-ccmnl,1641,8270,5,328,1654,14207,6247
+1,Fall 2018,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Chinatown,place-chncl,12857,4011,5,2571,802,12811,6248
+1,Fall 2018,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Downtown Crossing,place-dwnxg,31715,19944,5,6343,3989,15166,6249
+1,Fall 2018,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Forest Hills,place-forhl,3322,0,5,664,0,664,6250
+1,Fall 2018,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Green Street,place-grnst,371,436,5,74,87,651,6251
+1,Fall 2018,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Haymarket,place-haecl,11120,8783,5,2224,1757,14585,6252
+1,Fall 2018,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Jackson Square,place-jaksn,7582,3054,5,1516,611,1516,6253
+1,Fall 2018,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Massachusetts Ave.,place-masta,6504,2591,5,1301,518,8044,6254
+1,Fall 2018,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Malden Center,place-mlmnl,448,27129,5,90,5426,2024,6255
+1,Fall 2018,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,North Station,place-north,13001,8261,5,2600,1652,15533,6256
+1,Fall 2018,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Oak Grove,place-ogmnl,0,10119,5,0,2024,0,6257
+1,Fall 2018,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Roxbury Crossing,place-rcmnl,1140,268,5,228,54,1691,6258
+1,Fall 2018,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Ruggles,place-rugg,28646,795,5,5729,159,7261,6259
+1,Fall 2018,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Stony Brook,place-sbmnl,338,541,5,68,108,611,6260
+1,Fall 2018,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,State Street,place-state,12061,17303,5,2412,3461,14117,6261
+1,Fall 2018,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Sullivan Square,place-sull,2607,16562,5,521,3312,11416,6262
+1,Fall 2018,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Tufts Medical Center,place-tumnl,7172,2542,5,1434,508,11042,6263
+1,Fall 2018,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Wellington,place-welln,869,12424,5,174,2485,7360,6264
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Wellington,place-welln,223,2534,19,12,133,227,6267
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Assembly,place-astao,216,16954,19,11,892,1019,6269
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Back Bay,place-bbsta,36393,34353,19,1915,1808,9657,6272
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Community College,place-ccmnl,1133,21902,19,60,1153,2631,6273
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Malden Center,place-mlmnl,304,35906,19,16,1890,1012,6274
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Chinatown,place-chncl,3029,9463,19,159,498,8844,6276
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,North Station,place-north,14067,14914,19,740,785,5901,6278
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Downtown Crossing,place-dwnxg,37243,68814,19,1960,3622,7183,6279
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Forest Hills,place-forhl,91650,0,19,4824,0,4824,6281
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Oak Grove,place-ogmnl,0,19235,19,0,1012,0,6282
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Green Street,place-grnst,23438,929,19,1234,49,6008,6283
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Haymarket,place-haecl,4965,21992,19,261,1157,4915,6285
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Roxbury Crossing,place-rcmnl,15768,2869,19,830,151,3163,6286
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Jackson Square,place-jaksn,30612,1420,19,1611,75,8960,6288
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Ruggles,place-rugg,28966,6681,19,1525,352,4336,6289
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Massachusetts Ave.,place-masta,13634,12716,19,718,669,9549,6290
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Malden Center,place-mlmnl,326,9462,19,17,498,139,6292
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,North Station,place-north,7301,29921,19,384,1575,3725,6293
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Stony Brook,place-sbmnl,6066,884,19,319,47,2096,6295
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Oak Grove,place-ogmnl,0,2646,19,0,139,0,6297
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,State Street,place-state,18761,34259,19,987,1803,6041,6299
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Roxbury Crossing,place-rcmnl,16602,10087,19,874,531,9303,6300
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Sullivan Square,place-sull,3623,20052,19,191,1055,4377,6302
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Tufts Medical Center,place-tumnl,14190,5100,19,747,268,5812,6306
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Ruggles,place-rugg,18337,14570,19,965,767,9501,6307
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Wellington,place-welln,720,21500,19,38,1132,2886,6310
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Stony Brook,place-sbmnl,27513,623,19,1448,33,7424,6311
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Assembly,place-astao,4303,18466,19,226,972,10834,6344
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Back Bay,place-bbsta,83002,11810,19,4369,622,9465,6345
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,State Street,place-state,13846,39906,19,729,2100,5811,6347
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Community College,place-ccmnl,8973,20652,19,472,1087,13433,6348
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Chinatown,place-chncl,23713,7614,19,1248,401,11542,6367
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Downtown Crossing,place-dwnxg,112273,58356,19,5909,3071,14379,6368
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Sullivan Square,place-sull,3916,17817,19,206,938,1900,6369
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Forest Hills,place-forhl,27337,0,19,1439,0,1439,6370
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Green Street,place-grnst,7071,863,19,372,45,1766,6371
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Tufts Medical Center,place-tumnl,6240,15241,19,328,802,9183,6372
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Haymarket,place-haecl,24381,19469,19,1283,1025,14554,6373
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Wellington,place-welln,476,8051,19,25,424,620,6374
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Jackson Square,place-jaksn,13078,2936,19,688,155,2622,6375
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Assembly,place-astao,1094,11977,19,58,630,2404,6376
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Massachusetts Ave.,place-masta,16569,5410,19,872,285,5718,6377
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Back Bay,place-bbsta,28813,21954,19,1516,1155,7595,6378
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Malden Center,place-mlmnl,586,92975,19,31,4893,2972,6379
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,North Station,place-north,32721,42341,19,1722,2228,14048,6380
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Oak Grove,place-ogmnl,0,56462,19,0,2972,0,6381
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Roxbury Crossing,place-rcmnl,11126,3064,19,586,161,3047,6382
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Ruggles,place-rugg,45836,6242,19,2412,329,5131,6383
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Stony Brook,place-sbmnl,7170,1032,19,377,54,2089,6384
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,State Street,place-state,44473,46069,19,2341,2425,14295,6385
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Sullivan Square,place-sull,6303,41516,19,332,2185,11580,6386
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Tufts Medical Center,place-tumnl,27844,4483,19,1465,236,10694,6387
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Wellington,place-welln,1418,58419,19,75,3075,7834,6388
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Assembly,place-astao,2869,10284,19,151,541,5645,6389
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Back Bay,place-bbsta,34980,4476,19,1841,236,4516,6390
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Community College,place-ccmnl,5965,30874,19,314,1625,3707,6391
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Chinatown,place-chncl,13353,11625,19,703,612,7881,6392
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Downtown Crossing,place-dwnxg,50160,61951,19,2640,3261,7261,6393
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Forest Hills,place-forhl,59613,0,19,3138,0,3138,6394
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Green Street,place-grnst,16256,1250,19,856,66,3927,6395
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Haymarket,place-haecl,10200,23074,19,537,1214,5587,6396
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Jackson Square,place-jaksn,23489,2348,19,1236,124,5948,6397
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Massachusetts Ave.,place-masta,14820,12643,19,780,665,7234,6398
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Malden Center,place-mlmnl,364,25778,19,19,1357,426,6399
+1,Fall 2018,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,North Station,place-north,9877,20680,19,520,1088,5018,6400
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Ruggles,place-rugg,8498,31294,82,104,382,1540,6826
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Downtown Crossing,place-dwnxg,327285,227788,82,3991,2778,9954,6827
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Ruggles,place-rugg,12985,127321,82,158,1553,1727,6828
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Downtown Crossing,place-dwnxg,5235,30553,82,64,373,607,6857
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Stony Brook,place-sbmnl,3292,13865,82,40,169,1061,6860
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Forest Hills,place-forhl,0,373761,82,0,4558,0,6861
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Stony Brook,place-sbmnl,521,18257,82,6,223,894,6863
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Forest Hills,place-forhl,0,10901,82,0,133,0,6864
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,State Street,place-state,174121,187257,82,2123,2284,12218,6866
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Green Street,place-grnst,5212,102980,82,64,1256,4558,6867
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Sullivan Square,place-sull,164287,19548,82,2004,238,12225,6870
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,State Street,place-state,26822,14133,82,327,172,1229,6871
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Green Street,place-grnst,97,925,82,1,11,133,6872
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Haymarket,place-haecl,104267,38873,82,1272,474,6638,6873
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Haymarket,place-haecl,6607,6300,82,81,77,887,6875
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Tufts Medical Center,place-tumnl,13580,116192,82,166,1417,6955,6877
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Jackson Square,place-jaksn,13196,118375,82,161,1444,7070,6878
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Wellington,place-welln,217202,4702,82,2649,57,10165,6879
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Sullivan Square,place-sull,11666,2137,82,142,26,426,6881
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Jackson Square,place-jaksn,690,2186,82,8,27,149,6882
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Massachusetts Ave.,place-masta,56059,90893,82,684,1108,9526,6884
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Tufts Medical Center,place-tumnl,8395,5512,82,102,67,1635,6885
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Assembly,place-astao,40497,9812,82,494,120,6865,6886
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Massachusetts Ave.,place-masta,478,3754,82,6,46,300,6888
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Back Bay,place-bbsta,49540,185832,82,604,2266,5509,6890
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Wellington,place-welln,6369,526,82,78,6,226,6892
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Malden Center,place-mlmnl,32962,294,82,402,4,499,6893
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Assembly,place-astao,957,67,82,12,1,36,6894
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Community College,place-ccmnl,92006,48636,82,1122,593,9084,6895
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,North Station,place-north,955,13596,82,12,166,883,6896
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Back Bay,place-bbsta,4109,1314,82,50,16,249,6898
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Malden Center,place-mlmnl,83705,3260,82,1021,40,1457,6901
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Chinatown,place-chncl,30388,96147,82,371,1173,7874,6902
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Community College,place-ccmnl,558,126,82,7,2,59,6904
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Oak Grove,place-ogmnl,8225,0,82,100,0,100,6905
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,North Station,place-north,135895,55192,82,1657,673,5841,6907
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Roxbury Crossing,place-rcmnl,237,2616,82,3,32,167,6910
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Chinatown,place-chncl,1933,210,82,24,3,203,6911
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Downtown Crossing,place-dwnxg,210279,326352,82,2564,3980,8676,6912
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Ruggles,place-rugg,364,8872,82,4,108,196,6915
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Downtown Crossing,place-dwnxg,6403,2338,82,78,29,182,6917
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Oak Grove,place-ogmnl,39066,0,82,476,0,476,6919
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Forest Hills,place-forhl,0,132201,82,0,1612,0,6920
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Stony Brook,place-sbmnl,241,721,82,3,9,143,6921
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Forest Hills,place-forhl,0,4612,82,0,56,0,6923
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Roxbury Crossing,place-rcmnl,32868,73142,82,401,892,8352,6925
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Green Street,place-grnst,3648,31613,82,44,386,1612,6926
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,State Street,place-state,15133,12723,82,185,155,916,6928
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Green Street,place-grnst,21,2448,82,0,30,56,6930
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Ruggles,place-rugg,72146,128076,82,880,1562,8843,6932
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Haymarket,place-haecl,82494,70941,82,1006,865,9586,6934
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Sullivan Square,place-sull,29068,1766,82,354,22,1035,6935
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Haymarket,place-haecl,1875,735,82,23,9,103,6937
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Jackson Square,place-jaksn,266,5267,82,3,64,129,6938
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Massachusetts Ave.,place-masta,2991,1898,82,36,23,262,6939
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Malden Center,place-mlmnl,1139,19,82,14,0,17,6940
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,North Station,place-north,2709,255,82,33,3,89,6941
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Oak Grove,place-ogmnl,291,0,82,4,0,4,6942
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Roxbury Crossing,place-rcmnl,444,2275,82,5,28,190,6943
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Ruggles,place-rugg,1615,5663,82,20,69,213,6944
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Stony Brook,place-sbmnl,100,3661,82,1,45,86,6945
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,State Street,place-state,4710,2326,82,57,28,132,6946
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Sullivan Square,place-sull,1705,240,82,21,3,54,6947
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Tufts Medical Center,place-tumnl,1565,608,82,19,7,215,6948
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_09,NIGHT,Wellington,place-welln,763,92,82,9,1,25,6949
+1,Fall 2017,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Assembly,place-astao,29409,7514,16,1838,470,12278,6950
+1,Fall 2017,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Back Bay,place-bbsta,32357,69056,16,2022,4316,13397,6951
+1,Fall 2017,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Community College,place-ccmnl,22830,12329,16,1427,771,17611,6952
+1,Fall 2017,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Chinatown,place-chncl,20135,35765,16,1258,2235,16758,6953
+1,Fall 2017,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Downtown Crossing,place-dwnxg,88064,107888,16,5504,6743,17735,6954
+1,Fall 2017,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Forest Hills,place-forhl,0,48221,16,0,3014,0,6955
+1,Fall 2017,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Green Street,place-grnst,600,17039,16,38,1065,3014,6956
+1,Fall 2017,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Haymarket,place-haecl,41151,44917,16,2572,2807,17283,6957
+1,Fall 2017,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Jackson Square,place-jaksn,4116,27068,16,257,1692,5240,6958
+1,Fall 2017,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Massachusetts Ave.,place-masta,15369,39271,16,961,2454,11903,6959
+1,Fall 2017,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Malden Center,place-mlmnl,84826,3803,16,5302,238,7711,6960
+1,Fall 2017,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,North Station,place-north,34448,35935,16,2153,2246,17518,6961
+1,Fall 2017,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Oak Grove,place-ogmnl,42354,0,16,2647,0,2647,6962
+1,Fall 2017,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Roxbury Crossing,place-rcmnl,4216,15902,16,264,994,6675,6963
+1,Fall 2017,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Ruggles,place-rugg,10200,82176,16,638,5136,7405,6964
+1,Fall 2017,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Stony Brook,place-sbmnl,1053,20234,16,66,1265,4041,6965
+1,Fall 2017,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,State Street,place-state,68407,41347,16,4275,2584,18974,6966
+1,Fall 2017,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Sullivan Square,place-sull,83796,8967,16,5237,560,16955,6967
+1,Fall 2017,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Tufts Medical Center,place-tumnl,12903,29979,16,806,1874,15691,6968
+1,Fall 2017,Orange,Orange Line,0,day_type_02,saturday,time_period_10,OFF_PEAK,Wellington,place-welln,53875,2700,16,3367,169,10910,6969
+1,Fall 2017,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Assembly,place-astao,22436,6025,17,1320,354,8609,6970
+1,Fall 2017,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Back Bay,place-bbsta,27433,52834,17,1614,3108,10439,6971
+1,Fall 2017,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Community College,place-ccmnl,16686,9148,17,982,538,12233,6972
+1,Fall 2017,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Chinatown,place-chncl,17300,29553,17,1018,1738,12712,6973
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Tufts Medical Center,place-tumnl,725,7697,82,9,94,473,6974
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Jackson Square,place-jaksn,11576,56107,82,141,684,2322,6975
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Stony Brook,place-sbmnl,4034,112218,82,49,1369,5750,6976
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Massachusetts Ave.,place-masta,24096,83742,82,294,1021,4782,6979
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Wellington,place-welln,16595,717,82,202,9,692,6980
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,State Street,place-state,235841,63483,82,2876,774,8740,6981
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Malden Center,place-mlmnl,293410,14056,82,3578,171,4774,6983
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Assembly,place-astao,4793,3583,82,58,44,2771,6985
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Sullivan Square,place-sull,105386,14485,82,1285,177,4167,6986
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,North Station,place-north,101480,71797,82,1238,876,9446,6989
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Back Bay,place-bbsta,6766,54921,82,83,670,1431,6991
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Tufts Medical Center,place-tumnl,58933,41861,82,719,511,10331,6992
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Oak Grove,place-ogmnl,112082,0,82,1367,0,1367,6995
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Community College,place-ccmnl,10519,9276,82,128,113,3307,6997
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Wellington,place-welln,65643,3626,82,801,44,2214,6998
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Roxbury Crossing,place-rcmnl,16394,44795,82,200,546,2865,7001
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Chinatown,place-chncl,2073,17533,82,25,214,2446,7003
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Assembly,place-astao,28853,3006,82,352,37,1381,7004
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Back Bay,place-bbsta,84071,57591,82,1025,702,5779,7005
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Community College,place-ccmnl,45073,5067,82,550,62,2354,7006
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Chinatown,place-chncl,37266,14606,82,454,178,5364,7007
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Downtown Crossing,place-dwnxg,200283,105039,82,2442,1281,5088,7008
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Forest Hills,place-forhl,0,197551,82,0,2409,0,7009
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Green Street,place-grnst,1691,62960,82,21,768,2409,7010
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Haymarket,place-haecl,54172,18833,82,661,230,3143,7011
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Jackson Square,place-jaksn,8557,77867,82,104,950,4005,7012
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Massachusetts Ave.,place-masta,38894,49508,82,474,604,5650,7013
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Malden Center,place-mlmnl,45088,3459,82,550,42,750,7014
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,North Station,place-north,57070,27756,82,696,338,2712,7015
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Oak Grove,place-ogmnl,19887,0,82,243,0,243,7016
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Roxbury Crossing,place-rcmnl,16248,44099,82,198,538,4850,7017
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Ruggles,place-rugg,37483,75222,82,457,917,5190,7018
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Stony Brook,place-sbmnl,2745,72315,82,33,882,3156,7019
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,State Street,place-state,98434,34193,82,1200,417,3926,7020
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Sullivan Square,place-sull,47354,7549,82,577,92,1867,7021
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Tufts Medical Center,place-tumnl,27493,19933,82,335,243,5456,7022
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_07,EVENING,Wellington,place-welln,28314,2421,82,345,30,1066,7023
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Assembly,place-astao,7158,298,82,87,4,310,7024
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Back Bay,place-bbsta,24319,13719,82,297,167,1764,7025
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Community College,place-ccmnl,7115,892,82,87,11,502,7026
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Chinatown,place-chncl,12320,3119,82,150,38,1600,7027
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Downtown Crossing,place-dwnxg,51961,30759,82,634,375,1488,7028
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Forest Hills,place-forhl,0,59510,82,0,726,0,7029
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Green Street,place-grnst,380,14180,82,5,173,726,7030
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Haymarket,place-haecl,15854,5584,82,193,68,1075,7031
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Jackson Square,place-jaksn,1858,27853,82,23,340,1110,7032
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Massachusetts Ave.,place-masta,15954,11588,82,195,141,1818,7033
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Malden Center,place-mlmnl,9966,252,82,122,3,155,7034
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,North Station,place-north,39133,2440,82,477,30,949,7035
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Oak Grove,place-ogmnl,2981,0,82,36,0,36,7036
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_08,LATE_EVENING,Roxbury Crossing,place-rcmnl,2761,11978,82,34,146,1427,7037
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Ruggles,place-rugg,23138,151896,82,282,1852,3212,7038
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Downtown Crossing,place-dwnxg,29584,104855,82,361,1279,2634,7040
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Stony Brook,place-sbmnl,3488,33742,82,43,411,1953,7044
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,State Street,place-state,162634,121240,82,1983,1479,10091,7048
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Forest Hills,place-forhl,0,34335,82,0,419,0,7052
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Sullivan Square,place-sull,154145,15552,82,1880,190,8555,7053
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Green Street,place-grnst,626,5122,82,8,62,419,7057
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Tufts Medical Center,place-tumnl,28233,85836,82,344,1047,7171,7058
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Haymarket,place-haecl,20002,21943,82,244,268,3122,7062
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_04,MIDDAY_BASE,Wellington,place-welln,147265,6493,82,1796,79,6490,7063
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Jackson Square,place-jaksn,4688,7779,82,57,95,494,7067
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Assembly,place-astao,38657,5489,82,471,67,2600,7068
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Massachusetts Ave.,place-masta,3852,14050,82,47,171,1306,7101
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Back Bay,place-bbsta,65915,101820,82,804,1242,5290,7102
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Malden Center,place-mlmnl,84361,359,82,1029,4,2127,7103
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Community College,place-ccmnl,74692,18964,82,911,231,4236,7107
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Chinatown,place-chncl,27269,32321,82,333,394,5897,7109
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,North Station,place-north,25098,38349,82,306,468,3146,7111
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Downtown Crossing,place-dwnxg,185377,174390,82,2261,2127,5959,7114
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Oak Grove,place-ogmnl,90419,0,82,1103,0,1103,7115
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Forest Hills,place-forhl,0,208083,82,0,2538,0,7118
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Roxbury Crossing,place-rcmnl,2168,19088,82,26,233,532,7119
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Assembly,place-astao,1445,645,82,18,8,702,7138
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Back Bay,place-bbsta,756,11686,82,9,143,340,7139
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Community College,place-ccmnl,2379,2197,82,29,27,1037,7140
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Chinatown,place-chncl,549,4592,82,7,56,558,7141
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Green Street,place-grnst,4753,37507,82,58,457,2538,7143
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Haymarket,place-haecl,67631,37069,82,825,452,4993,7145
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Jackson Square,place-jaksn,10347,73747,82,126,899,3435,7147
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Massachusetts Ave.,place-masta,27824,51284,82,339,625,5004,7149
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Ruggles,place-rugg,6108,52704,82,74,643,738,7167
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Malden Center,place-mlmnl,100967,1837,82,1231,22,1630,7168
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,North Station,place-north,59930,28365,82,731,346,4621,7169
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Oak Grove,place-ogmnl,34518,0,82,421,0,421,7170
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Stony Brook,place-sbmnl,1228,2902,82,15,35,474,7171
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Roxbury Crossing,place-rcmnl,33867,40819,82,413,498,4208,7172
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,State Street,place-state,74225,38937,82,905,475,3552,7173
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Sullivan Square,place-sull,49864,7111,82,608,87,3292,7174
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Ruggles,place-rugg,43079,101407,82,525,1237,4293,7175
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Tufts Medical Center,place-tumnl,3618,38700,82,44,472,2018,7176
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Stony Brook,place-sbmnl,3114,43945,82,38,536,2937,7177
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_02,EARLY_AM,Wellington,place-welln,53137,1581,82,648,19,2756,7178
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Assembly,place-astao,35801,11617,82,437,142,10460,7179
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,State Street,place-state,130717,62524,82,1594,762,5825,7180
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Back Bay,place-bbsta,27367,296177,82,334,3612,3676,7181
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Community College,place-ccmnl,43744,44377,82,533,541,12217,7182
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Chinatown,place-chncl,8785,79863,82,107,974,8206,7183
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Downtown Crossing,place-dwnxg,147056,404996,82,1793,4939,9073,7184
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Forest Hills,place-forhl,0,72861,82,0,889,0,7185
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Green Street,place-grnst,1997,16111,82,24,196,889,7186
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Haymarket,place-haecl,50443,84038,82,615,1025,12379,7187
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Jackson Square,place-jaksn,12305,24456,82,150,298,1190,7188
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Massachusetts Ave.,place-masta,12226,57722,82,149,704,3122,7189
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Malden Center,place-mlmnl,368627,4883,82,4495,60,7574,7190
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,North Station,place-north,157674,110867,82,1923,1352,12788,7191
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Oak Grove,place-ogmnl,257299,0,82,3138,0,3138,7192
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_03,AM_PEAK,Roxbury Crossing,place-rcmnl,7798,39735,82,95,485,1338,7193
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Sullivan Square,place-sull,88521,10156,82,1080,124,3556,7194
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Tufts Medical Center,place-tumnl,33039,46900,82,403,572,5728,7195
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Wellington,place-welln,49629,3219,82,605,39,2196,7196
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Assembly,place-astao,74790,5518,82,912,67,3059,7197
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Back Bay,place-bbsta,127288,158534,82,1552,1933,9950,7198
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Community College,place-ccmnl,70353,13812,82,858,168,4857,7199
+1,Fall 2017,Orange,Orange Line,0,day_type_01,weekday,time_period_06,PM_PEAK,Chinatown,place-chncl,46475,32565,82,567,397,10123,7200
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Ruggles,place-rugg,93208,12997,82,1137,159,2512,7201
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Stony Brook,place-sbmnl,15936,2610,82,194,32,1093,7202
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,State Street,place-state,82432,101029,82,1005,1232,6518,7203
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Sullivan Square,place-sull,14801,118898,82,181,1450,5475,7204
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Tufts Medical Center,place-tumnl,45758,9847,82,558,120,4728,7206
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Wellington,place-welln,4273,111243,82,52,1357,3871,7208
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Assembly,place-astao,2272,9100,82,28,111,1606,7210
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Downtown Crossing,place-dwnxg,231849,182189,82,2827,2222,7023,7212
+1,Fall 2017,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Downtown Crossing,place-dwnxg,71782,80418,17,4222,4730,13433,7213
+1,Fall 2017,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Downtown Crossing,place-dwnxg,127514,103809,16,7970,6488,21179,7216
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Back Bay,place-bbsta,38187,3643,82,466,44,1115,7217
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Community College,place-ccmnl,2896,10299,82,35,126,2310,7218
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Chinatown,place-chncl,26996,2058,82,329,25,1573,7219
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Downtown Crossing,place-dwnxg,68857,25767,82,840,314,2098,7220
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Forest Hills,place-forhl,18747,0,82,229,0,229,7221
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Green Street,place-grnst,3654,412,82,45,5,268,7222
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Haymarket,place-haecl,26604,16013,82,324,195,1906,7223
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Jackson Square,place-jaksn,6341,1856,82,77,23,350,7224
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Massachusetts Ave.,place-masta,14407,3153,82,176,38,693,7225
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Malden Center,place-mlmnl,817,67784,82,10,827,382,7226
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,North Station,place-north,49245,8700,82,601,106,2400,7227
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Oak Grove,place-ogmnl,0,31360,82,0,382,0,7228
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Roxbury Crossing,place-rcmnl,4545,1453,82,55,18,388,7229
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Ruggles,place-rugg,16605,2827,82,203,34,556,7230
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Stony Brook,place-sbmnl,2826,576,82,34,7,296,7231
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,State Street,place-state,21818,48196,82,266,588,1776,7232
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Sullivan Square,place-sull,4419,55337,82,54,675,1689,7233
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Tufts Medical Center,place-tumnl,14808,2179,82,181,27,1269,7234
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_08,LATE_EVENING,Wellington,place-welln,1144,34475,82,14,420,1199,7235
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Assembly,place-astao,332,1291,82,4,16,219,7236
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Back Bay,place-bbsta,5892,296,82,72,4,155,7237
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Community College,place-ccmnl,322,1166,82,4,14,315,7238
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Chinatown,place-chncl,3597,240,82,44,3,225,7239
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Downtown Crossing,place-dwnxg,10145,3108,82,124,38,311,7240
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Forest Hills,place-forhl,2134,0,82,26,0,26,7241
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Green Street,place-grnst,388,82,82,5,1,30,7242
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Haymarket,place-haecl,4123,2503,82,50,31,276,7243
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Jackson Square,place-jaksn,835,277,82,10,3,43,7244
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Massachusetts Ave.,place-masta,2047,397,82,25,5,86,7245
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Malden Center,place-mlmnl,55,11475,82,1,140,26,7246
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Ruggles,place-rugg,24178,17769,82,295,217,2566,7247
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,North Station,place-north,4983,920,82,61,11,326,7248
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Oak Grove,place-ogmnl,0,2141,82,0,26,0,7249
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Roxbury Crossing,place-rcmnl,567,154,82,7,2,48,7250
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Ruggles,place-rugg,1973,450,82,24,5,66,7251
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Stony Brook,place-sbmnl,582,87,82,7,1,36,7252
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,State Street,place-state,4123,8615,82,50,105,256,7253
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Sullivan Square,place-sull,1040,7998,82,13,98,230,7254
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Tufts Medical Center,place-tumnl,2687,256,82,33,3,184,7255
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_09,NIGHT,Wellington,place-welln,245,4616,82,3,56,165,7256
+1,Fall 2017,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Assembly,place-astao,6651,36834,16,416,2302,10498,7257
+1,Fall 2017,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Back Bay,place-bbsta,68998,38963,16,4312,2435,17166,7258
+1,Fall 2017,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Community College,place-ccmnl,6583,39766,16,411,2485,17024,7259
+1,Fall 2017,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Chinatown,place-chncl,49094,22457,16,3068,1404,19697,7260
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Forest Hills,place-forhl,134593,0,82,1641,0,1641,7261
+1,Fall 2017,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Forest Hills,place-forhl,0,48635,17,0,2861,0,7262
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Stony Brook,place-sbmnl,15963,915,82,195,11,2225,7263
+1,Fall 2017,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Forest Hills,place-forhl,71161,0,16,4448,0,4448,7266
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,State Street,place-state,25579,45295,82,312,552,1645,7267
+1,Fall 2017,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Green Street,place-grnst,18084,2788,16,1130,174,5404,7269
+1,Fall 2017,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Green Street,place-grnst,761,14006,17,45,824,2861,7270
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Green Street,place-grnst,29334,4056,82,358,49,1950,7272
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Sullivan Square,place-sull,4443,29087,82,54,355,528,7274
+1,Fall 2017,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Haymarket,place-haecl,53260,57684,16,3329,3605,18460,7275
+1,Fall 2017,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Haymarket,place-haecl,27334,26852,17,1608,1580,12422,7276
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Haymarket,place-haecl,53656,71429,82,654,871,6024,7279
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Tufts Medical Center,place-tumnl,6220,17035,82,76,208,2320,7281
+1,Fall 2017,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Jackson Square,place-jaksn,27616,4142,16,1726,259,7980,7282
+1,Fall 2017,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Jackson Square,place-jaksn,3787,23045,17,223,1356,4495,7283
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Wellington,place-welln,1047,11689,82,13,143,209,7331
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Assembly,place-astao,884,64770,82,11,790,1003,7332
+1,Fall 2017,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Massachusetts Ave.,place-masta,13782,35291,17,811,2076,9174,7334
+1,Fall 2017,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Massachusetts Ave.,place-masta,35975,20662,16,2248,1291,15289,7335
+1,Fall 2017,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Malden Center,place-mlmnl,66656,2976,17,3921,175,5573,7337
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Back Bay,place-bbsta,140544,132731,82,1714,1619,9166,7338
+1,Fall 2017,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Malden Center,place-mlmnl,1332,90940,16,83,5684,1680,7339
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Jackson Square,place-jaksn,51848,14066,82,632,172,2682,7341
+1,Fall 2017,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,North Station,place-north,28664,25946,17,1686,1526,12393,7342
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Community College,place-ccmnl,4070,83417,82,50,1017,2495,7343
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Massachusetts Ave.,place-masta,47314,27699,82,577,338,4633,7345
+1,Fall 2017,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,North Station,place-north,47970,37768,16,2998,2361,19098,7347
+1,Fall 2017,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Oak Grove,place-ogmnl,31063,0,17,1827,0,1827,7348
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Chinatown,place-chncl,14675,41567,82,179,507,8411,7349
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Malden Center,place-mlmnl,1700,150932,82,21,1841,995,7351
+1,Fall 2017,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Oak Grove,place-ogmnl,0,26877,16,0,1680,0,7353
+1,Fall 2017,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Roxbury Crossing,place-rcmnl,3766,12949,17,222,762,5627,7354
+1,Fall 2017,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Ruggles,place-rugg,9171,60283,17,539,3546,6168,7355
+1,Fall 2017,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Stony Brook,place-sbmnl,1069,15598,17,63,918,3640,7356
+1,Fall 2017,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,State Street,place-state,57536,31707,17,3384,1865,13941,7357
+1,Fall 2017,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Sullivan Square,place-sull,60369,6300,17,3551,371,11790,7358
+1,Fall 2017,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Tufts Medical Center,place-tumnl,11441,24678,17,673,1452,11934,7359
+1,Fall 2017,Orange,Orange Line,0,day_type_03,sunday,time_period_11,OFF_PEAK,Wellington,place-welln,37509,2303,17,2206,135,7644,7360
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Assembly,place-astao,54,2714,82,1,33,134,7361
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Back Bay,place-bbsta,1891,5241,82,23,64,370,7362
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Community College,place-ccmnl,140,5040,82,2,61,245,7363
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Chinatown,place-chncl,1071,1111,82,13,14,373,7364
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Downtown Crossing,place-dwnxg,10130,12817,82,124,156,340,7365
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Forest Hills,place-forhl,0,0,82,0,0,0,7366
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Green Street,place-grnst,2991,0,82,36,0,36,7367
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Haymarket,place-haecl,4353,3319,82,53,40,363,7368
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Jackson Square,place-jaksn,12795,28,82,156,0,254,7369
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Massachusetts Ave.,place-masta,2608,1282,82,32,16,411,7370
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Malden Center,place-mlmnl,38,4806,82,0,59,19,7371
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,North Station,place-north,856,5606,82,10,68,305,7372
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Oak Grove,place-ogmnl,0,1564,82,0,19,0,7373
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Roxbury Crossing,place-rcmnl,3449,629,82,42,8,289,7374
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Ruggles,place-rugg,9535,869,82,116,11,394,7375
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Stony Brook,place-sbmnl,5099,2,82,62,0,99,7376
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,State Street,place-state,9042,8209,82,110,100,350,7377
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Sullivan Square,place-sull,2073,8490,82,25,104,167,7378
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Tufts Medical Center,place-tumnl,2043,1770,82,25,22,373,7379
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_01,VERY_EARLY_MORNING,Wellington,place-welln,259,4930,82,3,60,77,7380
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Assembly,place-astao,205,15782,82,3,192,338,7381
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Back Bay,place-bbsta,25947,32817,82,316,400,2452,7382
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Community College,place-ccmnl,469,29665,82,6,362,829,7383
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Chinatown,place-chncl,3511,6452,82,43,79,2284,7384
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Downtown Crossing,place-dwnxg,40332,73026,82,492,891,1885,7385
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Forest Hills,place-forhl,152520,0,82,1860,0,1860,7386
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Green Street,place-grnst,16086,1226,82,196,15,2041,7387
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Haymarket,place-haecl,8333,21022,82,102,256,1490,7388
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Jackson Square,place-jaksn,32250,2267,82,393,28,2590,7389
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Massachusetts Ave.,place-masta,10175,12692,82,124,155,2535,7390
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Malden Center,place-mlmnl,195,12563,82,2,153,58,7391
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,North Station,place-north,5638,30659,82,69,374,1185,7392
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Oak Grove,place-ogmnl,0,4735,82,0,58,0,7393
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_02,EARLY_AM,Roxbury Crossing,place-rcmnl,9415,17810,82,115,217,2488,7394
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,North Station,place-north,58135,66911,82,709,816,5917,7395
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Oak Grove,place-ogmnl,0,81586,82,0,995,0,7396
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Downtown Crossing,place-dwnxg,153645,277779,82,1874,3388,6897,7397
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Roxbury Crossing,place-rcmnl,63935,14908,82,780,182,3280,7398
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Ruggles,place-rugg,120476,29121,82,1469,355,4394,7399
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Forest Hills,place-forhl,372413,0,82,4542,0,4542,7400
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Stony Brook,place-sbmnl,25704,3447,82,313,42,2221,7402
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Green Street,place-grnst,99275,5176,82,1211,63,5689,7403
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,State Street,place-state,90370,154453,82,1102,1884,6241,7405
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Haymarket,place-haecl,19154,88021,82,234,1073,4585,7407
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Jackson Square,place-jaksn,118228,5804,82,1442,71,8386,7410
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Sullivan Square,place-sull,13655,96253,82,167,1174,4246,7413
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Massachusetts Ave.,place-masta,64542,51178,82,787,624,9071,7414
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Tufts Medical Center,place-tumnl,67528,22199,82,824,271,5920,7417
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Wellington,place-welln,3201,92560,82,39,1129,2815,7418
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Assembly,place-astao,16932,61142,82,206,746,10294,7419
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Back Bay,place-bbsta,317744,50956,82,3875,621,8890,7420
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Community College,place-ccmnl,34846,83006,82,425,1012,12783,7421
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Chinatown,place-chncl,97400,31074,82,1188,379,10914,7422
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Downtown Crossing,place-dwnxg,464306,245136,82,5662,2989,13587,7423
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Forest Hills,place-forhl,125039,0,82,1525,0,1525,7424
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Green Street,place-grnst,31606,4391,82,385,54,1857,7425
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Haymarket,place-haecl,102520,88737,82,1250,1082,13872,7426
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Jackson Square,place-jaksn,56564,13576,82,690,166,2701,7427
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Massachusetts Ave.,place-masta,74580,25223,82,910,308,5636,7428
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Malden Center,place-mlmnl,2554,381474,82,31,4652,2896,7429
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,North Station,place-north,135489,176633,82,1652,2154,13370,7430
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Oak Grove,place-ogmnl,0,237510,82,0,2896,0,7431
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Roxbury Crossing,place-rcmnl,46448,13214,82,566,161,3106,7432
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Ruggles,place-rugg,184228,26143,82,2247,319,5034,7433
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Stony Brook,place-sbmnl,30814,4580,82,376,56,2177,7434
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,State Street,place-state,208606,198983,82,2544,2427,13704,7435
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Sullivan Square,place-sull,25273,185193,82,308,2258,10833,7436
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Tufts Medical Center,place-tumnl,119274,19611,82,1455,239,10105,7437
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_06,PM_PEAK,Wellington,place-welln,6210,233853,82,76,2852,7517,7438
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Assembly,place-astao,9116,33617,82,111,410,5176,7439
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Back Bay,place-bbsta,140270,18744,82,1711,229,4290,7440
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Community College,place-ccmnl,20999,38830,82,256,474,6744,7441
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Chinatown,place-chncl,69410,16870,82,846,206,5368,7442
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Downtown Crossing,place-dwnxg,234479,121576,82,2860,1483,6745,7443
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Forest Hills,place-forhl,62758,0,82,765,0,765,7444
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Green Street,place-grnst,15728,2161,82,192,26,931,7445
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Haymarket,place-haecl,66150,52853,82,807,645,6680,7446
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Jackson Square,place-jaksn,26938,7174,82,329,87,1334,7447
+1,Fall 2017,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Roxbury Crossing,place-rcmnl,16657,4881,16,1041,305,8716,7448
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Massachusetts Ave.,place-masta,39360,15122,82,480,184,2808,7449
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Malden Center,place-mlmnl,2401,228316,82,29,2784,1116,7450
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,North Station,place-north,86192,63131,82,1051,770,6962,7451
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Oak Grove,place-ogmnl,0,91548,82,0,1116,0,7452
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_07,EVENING,Roxbury Crossing,place-rcmnl,22090,5735,82,269,70,1534,7453
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Malden Center,place-mlmnl,1302,41062,82,16,501,130,7456
+1,Fall 2017,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Ruggles,place-rugg,101512,11661,16,6345,729,14332,7459
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,North Station,place-north,30117,122145,82,367,1490,3463,7460
+1,Fall 2017,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Stony Brook,place-sbmnl,19247,1499,16,1203,94,6513,7462
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Oak Grove,place-ogmnl,0,10669,82,0,130,0,7463
+1,Fall 2017,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,State Street,place-state,45317,84389,16,2832,5274,18736,7465
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Roxbury Crossing,place-rcmnl,64797,41019,82,790,500,8676,7467
+1,Fall 2017,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Sullivan Square,place-sull,10870,85103,16,679,5319,12384,7468
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Ruggles,place-rugg,77553,58546,82,946,714,8908,7472
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Stony Brook,place-sbmnl,110957,2256,82,1353,28,7015,7476
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,State Street,place-state,56841,177553,82,693,2165,5425,7480
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Sullivan Square,place-sull,13818,72245,82,169,881,1783,7483
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Tufts Medical Center,place-tumnl,25026,60049,82,305,732,8739,7484
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_03,AM_PEAK,Wellington,place-welln,1954,33811,82,24,412,615,7485
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Assembly,place-astao,4171,48650,82,51,593,2410,7486
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Back Bay,place-bbsta,122468,98768,82,1494,1204,7847,7487
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Community College,place-ccmnl,21018,122222,82,256,1491,3740,7488
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Chinatown,place-chncl,60527,51202,82,738,624,8154,7489
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Downtown Crossing,place-dwnxg,224419,277358,82,2737,3382,7509,7490
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Forest Hills,place-forhl,268167,0,82,3270,0,3270,7491
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Green Street,place-grnst,70269,5460,82,857,67,4061,7492
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Haymarket,place-haecl,44829,105822,82,547,1291,5592,7493
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Jackson Square,place-jaksn,110088,10651,82,1343,130,6156,7494
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Massachusetts Ave.,place-masta,71623,55908,82,873,682,7558,7495
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Malden Center,place-mlmnl,1787,112259,82,22,1369,417,7496
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,North Station,place-north,43035,93772,82,525,1144,4974,7497
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Oak Grove,place-ogmnl,0,34201,82,0,417,0,7498
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Roxbury Crossing,place-rcmnl,65883,23405,82,803,285,6674,7499
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Ruggles,place-rugg,109764,52996,82,1339,646,7366,7500
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Stony Brook,place-sbmnl,76297,3948,82,930,48,4943,7501
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,State Street,place-state,74954,171075,82,914,2086,6336,7502
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Sullivan Square,place-sull,15537,80068,82,189,976,2953,7503
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Tufts Medical Center,place-tumnl,59715,43827,82,728,534,8040,7504
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_04,MIDDAY_BASE,Wellington,place-welln,3986,56946,82,49,694,1764,7505
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Assembly,place-astao,7387,35400,82,90,432,3905,7506
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Back Bay,place-bbsta,111501,51296,82,1360,626,5367,7507
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Community College,place-ccmnl,18544,72982,82,226,890,5254,7508
+1,Fall 2017,Orange,Orange Line,1,day_type_01,weekday,time_period_05,MIDDAY_SCHOOL,Chinatown,place-chncl,65067,24308,82,794,296,6417,7509
+1,Fall 2017,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Tufts Medical Center,place-tumnl,27617,13757,16,1726,860,18032,7510
+1,Fall 2017,Orange,Orange Line,1,day_type_02,saturday,time_period_10,OFF_PEAK,Wellington,place-welln,2811,54288,16,176,3393,7280,7512
+1,Fall 2017,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Assembly,place-astao,5561,28310,17,327,1665,7734,7567
+1,Fall 2017,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Back Bay,place-bbsta,52825,29029,17,3107,1708,12163,7568
+1,Fall 2017,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Community College,place-ccmnl,4996,33170,17,294,1951,12425,7569
+1,Fall 2017,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Chinatown,place-chncl,40284,18293,17,2370,1076,14178,7570
+1,Fall 2017,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Downtown Crossing,place-dwnxg,100130,77923,17,5890,4584,15485,7571
+1,Fall 2017,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Forest Hills,place-forhl,56849,0,17,3344,0,3344,7572
+1,Fall 2017,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Green Street,place-grnst,13461,1310,17,792,77,4059,7573
+1,Fall 2017,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Haymarket,place-haecl,34797,33646,17,2047,1979,13696,7574
+1,Fall 2017,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Jackson Square,place-jaksn,22945,3536,17,1350,208,5965,7575
+1,Fall 2017,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Massachusetts Ave.,place-masta,30287,20094,17,1782,1182,10763,7576
+1,Fall 2017,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Malden Center,place-mlmnl,1276,72714,17,75,4277,1416,7577
+1,Fall 2017,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,North Station,place-north,36119,29553,17,2125,1738,14082,7578
+1,Fall 2017,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Oak Grove,place-ogmnl,0,24077,17,0,1416,0,7579
+1,Fall 2017,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Roxbury Crossing,place-rcmnl,12683,4221,17,746,248,6463,7580
+1,Fall 2017,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Ruggles,place-rugg,72467,9546,17,4263,562,10164,7581
+1,Fall 2017,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Stony Brook,place-sbmnl,14186,1195,17,834,70,4823,7582
+1,Fall 2017,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,State Street,place-state,37437,68999,17,2202,4059,13628,7583
+1,Fall 2017,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Sullivan Square,place-sull,7607,64606,17,447,3800,9072,7584
+1,Fall 2017,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Tufts Medical Center,place-tumnl,24251,11980,17,1427,705,12885,7585
+1,Fall 2017,Orange,Orange Line,1,day_type_03,sunday,time_period_11,OFF_PEAK,Wellington,place-welln,2296,38256,17,135,2250,5619,7586

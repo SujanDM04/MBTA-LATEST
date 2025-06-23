@@ -1,0 +1,10 @@
+Time Period,Duration (hrs),Geometric Mean Load,Highest ONS,Optimized Trains/Hour,Total Trips,Total Capacity
+time_period_01,2.0,1088.811309,32962.0,3,6.0,600.0
+time_period_02,3.0,5881.108212,90419.0,3,9.0,900.0
+time_period_03,6.5,22241.747501,368627.0,4,26.0,2600.0
+time_period_04,3.0,27644.454715,293410.0,4,12.0,1200.0
+time_period_05,3.5,22884.360685,185377.0,4,14.0,1400.0
+time_period_06,3.0,33750.729181,327285.0,4,12.0,1200.0
+time_period_07,2.0,17476.836642,200283.0,2,4.0,400.0
+time_period_08,2.0,3938.494063,51961.0,5,10.0,1000.0
+time_period_09,2.0,506.900167,6403.0,4,8.0,800.0
