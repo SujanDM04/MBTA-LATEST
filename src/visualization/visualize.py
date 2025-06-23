@@ -21,32 +21,50 @@ class ScheduleVisualizer:
         
     def plot_demand_distribution(self, save_path: str = None):
         """
-        Plot passenger demand distribution across hours and directions.
+        Plot normalized (per-day) passenger demand distribution across hours and directions.
         Args:
             save_path: Optional path to save the plot
         """
         plt.figure(figsize=(16, 8))
-        # Aggregate demand by hour and direction
+
+        # Define service day counts
+        service_days = {
+            'weekday': 77,
+            'saturday': 12,
+            'sunday': 8
+        }
+
+        # Aggregate demand
         demand_data = self.passenger_data.groupby(['day_type_name', 'hour', 'direction_id']).agg({
             'total_ons': 'sum',
             'total_offs': 'sum'
         }).reset_index()
-        # Create grouped bar plot
+
+        # Normalize total_ons using number of service days
+        demand_data['normalized_ons'] = demand_data.apply(
+            lambda row: row['total_ons'] / service_days.get(row['day_type_name'], 1),
+            axis=1
+        )
+
+        # Plot normalized demand
         sns.barplot(
             data=demand_data,
             x='hour',
-            y='total_ons',
+            y='normalized_ons',
             hue='day_type_name',
-            ci=None
+            errorbar=None
         )
-        plt.title('Passenger Demand Distribution by Hour and Direction')
+
+        plt.title('Passenger Demand Distribution per Day by Hour and Direction')
         plt.xlabel('Hour of Day')
-        plt.ylabel('Total Passengers')
+        plt.ylabel('Average Daily Passengers')
         plt.xticks(rotation=45)
         plt.tight_layout()
+
         if save_path:
             plt.savefig(save_path)
         plt.show()
+
         
     def plot_train_allocation(self, save_path: str = None):
         """
@@ -72,7 +90,7 @@ class ScheduleVisualizer:
             x='hour',
             y='trains',
             hue='day_type_name',
-            ci=None
+            errorbar=None
         )
         plt.title('Optimized Train Allocation by Hour and Direction')
         plt.xlabel('Hour of Day')
@@ -125,7 +143,7 @@ class ScheduleVisualizer:
             x='hour',
             y='load_per_train',
             hue='day_type_name',
-            ci=None
+            errorbar=None
         )
         # Add capacity line
         plt.axhline(y=train_capacity, color='r', linestyle='--', label='Train Capacity')
