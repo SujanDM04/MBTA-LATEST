@@ -2,10 +2,11 @@ import sys
 from pathlib import Path
 import pandas as pd
 from data_processing.preprocess import DataPreprocessor
-from optimization.optimize import TrainScheduler
+from optimization.simulated_annealing import SimulatedAnnealingTrainScheduler
 from optimization.hill_climbing import HillClimbingTrainScheduler
+from optimization.genetic_algorithm import GeneticAlgorithmScheduler
 from visualization.visualize import ScheduleVisualizer
-from plot_costs import plot_cost_progress
+from plot_costs import plot_cost_progress, plot_combined_cost_progress
 
 def main():
     # Create necessary directories
@@ -29,7 +30,7 @@ def main():
 
     print("\nInitializing train scheduler...")
     # Initialize train scheduler with custom parameters
-    scheduler = TrainScheduler(
+    scheduler = SimulatedAnnealingTrainScheduler(
         passenger_data=passenger_data,
         time_slots=time_slots,
         train_capacity=1000,    # Maximum passengers per train
@@ -47,31 +48,72 @@ def main():
     sa_analysis.to_csv("reports/sa_frequency_analysis.csv", index=False)
     
     print("\nOptimizing train frequency with Hill Climbing...")
-    # Re-initialize scheduler for hill climbing with improved demand
-    scheduler.initialize_slots(onboard_demand_df=onboard_hourly_df)  # reset to initial state
-    hc_optimizer = HillClimbingTrainScheduler(scheduler, geo_mean_demand, train_capacity=1000, min_trains=3, max_iterations=1000)
-    hc_solution, hc_cost_progress = hc_optimizer.optimize()
+    
+    #initialize Hill Climbing scheduler 
+
+    scheduler.initialize_slots(onboard_demand_df=onboard_hourly_df)  
+    hc_optimizer = HillClimbingTrainScheduler(
+        passenger_data=passenger_data,
+        time_slots=time_slots,
+        train_capacity=1000,
+        min_frequency=6,
+        max_frequency=15,
+        min_trains=3,
+        max_iterations=1000
+    )
+    hc_solution, hc_cost_progress = hc_optimizer.optimize(geo_mean_demand)  
     print("\nHill Climbing Frequency Analysis:")
     hc_analysis = scheduler.get_frequency_analysis(hc_solution)
     print(hc_analysis.to_string(index=False))
     hc_analysis.to_csv("reports/hc_frequency_analysis.csv", index=False)
     
+    print("\nOptimizing train frequency with Genetic Algorithm...")
+    ga_optimizer = GeneticAlgorithmScheduler(
+        slots=scheduler.slots,  # Pass slots directly
+        geo_mean_df=geo_mean_demand,
+        penalties=scheduler.penalties,  # Pass penalties directly
+        train_capacity=1000,
+        min_trains=3,
+        population_size=50,
+        generations=1000,
+        mutation_rate=0.1,
+        elite_size=5,
+        crossover_rate=0.8
+    )
+    ga_solution, ga_cost, ga_cost_progress = ga_optimizer.optimize()
+    print("\nGenetic Algorithm Frequency Analysis:")
+    ga_analysis = scheduler.get_frequency_analysis(ga_solution)
+    print(ga_analysis.to_string(index=False))
+    ga_analysis.to_csv("reports/ga_frequency_analysis.csv", index=False)
+
     print("\nGenerating visualizations for Simulated Annealing solution...")
-    sa_visualizer = ScheduleVisualizer(passenger_data, sa_solution)
+    
+    #Intialize visualizer with Simulated Annealing solution
+    sa_visualizer = ScheduleVisualizer(passenger_data, sa_solution,"Simulated Annealing")
     sa_visualizer.plot_demand_distribution("plots/demand_distribution.png")
     sa_visualizer.plot_train_allocation("plots/train_allocation_sa.png")
     sa_visualizer.plot_load_distribution(1000, "plots/load_distribution_sa.png")
     sa_visualizer.generate_report(1000, "reports/optimization_report.json")
+    
+    #Intialize visualizer with Simulated Annealing solution
 
     print("\nGenerating visualizations for Hill Climbing solution...")
-    hc_visualizer = ScheduleVisualizer(passenger_data, hc_solution)
+    hc_visualizer = ScheduleVisualizer(passenger_data, hc_solution,"Hill Climbing")
     hc_visualizer.plot_train_allocation("plots/train_allocation_hc.png")
     hc_visualizer.plot_load_distribution(1000, "plots/load_distribution_hc.png")
+
+    print("\nGenerating visualizations for Genetic Algorithm solution...")
+    ga_visualizer = ScheduleVisualizer(passenger_data, ga_solution, "Genetic Algorithm")
+    ga_visualizer.plot_train_allocation("plots/train_allocation_ga.png")
+    ga_visualizer.plot_load_distribution(1000, "plots/load_distribution_ga.png")
 
     # Plot comparison of train allocations
     print("\nPlotting side-by-side comparison of train allocations...")
     sa_visualizer.plot_train_allocation_comparison(hc_solution, other_label="Hill Climbing", this_label="Simulated Annealing", save_path="plots/train_allocation_comparison.png")
-    
+    sa_visualizer.plot_train_allocation_comparison(
+        ga_solution, other_label="Genetic Algorithm", this_label="Simulated Annealing", save_path="plots/train_allocation_comparison_ga.png"
+    )
+
     print("\nGenerating train schedule...")
     schedule_df = sa_visualizer.generate_train_schedule(save_path="reports/train_schedule.csv")
     
@@ -90,7 +132,8 @@ def main():
 
     # Plot cost progress
     print("\nGenerating cost progress plots...")
-    plot_cost_progress(sa_cost_progress, hc_cost_progress, "plots")
+    plot_cost_progress(sa_cost_progress, hc_cost_progress, ga_cost_progress, "plots")
+    plot_combined_cost_progress(sa_cost_progress, hc_cost_progress, ga_cost_progress, "plots")
 
 if __name__ == "__main__":
-    main() 
+    main()
