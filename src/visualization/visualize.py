@@ -8,7 +8,7 @@ import os
 from datetime import datetime, timedelta
 
 class ScheduleVisualizer:
-    def __init__(self, passenger_data: pd.DataFrame, optimization_results: Dict[str, int],type_of_optimization: str):
+    def __init__(self, passenger_data: pd.DataFrame, optimization_results: Dict[str, int]):
         """
         Initialize the schedule visualizer.
         
@@ -18,7 +18,6 @@ class ScheduleVisualizer:
         """
         self.passenger_data = passenger_data
         self.optimization_results = optimization_results
-        self.type_of_optimization = type_of_optimization
         
     def plot_demand_distribution(self, save_path: str = None):
         """
@@ -56,7 +55,7 @@ class ScheduleVisualizer:
             errorbar=None
         )
 
-        plt.title('Passenger Demand Distribution per Day by Hour and Direction for Orange Line')
+        plt.title('Passenger Demand Distribution per Day by Hour and Direction')
         plt.xlabel('Hour of Day')
         plt.ylabel('Average Daily Passengers')
         plt.xticks(rotation=45)
@@ -93,7 +92,7 @@ class ScheduleVisualizer:
             hue='day_type_name',
             errorbar=None
         )
-        plt.title('Optimized Train Allocation by Hour and Direction using ' + self.type_of_optimization)
+        plt.title('Optimized Train Allocation by Hour and Direction')
         plt.xlabel('Hour of Day')
         plt.ylabel('Number of Trains')
         plt.xticks(rotation=45)
@@ -148,7 +147,7 @@ class ScheduleVisualizer:
         )
         # Add capacity line
         plt.axhline(y=train_capacity, color='r', linestyle='--', label='Train Capacity')
-        plt.title('Passenger Load per Train by Hour and Direction using ' + self.type_of_optimization)
+        plt.title('Passenger Load per Train by Hour and Direction')
         plt.xlabel('Hour of Day')
         plt.ylabel('Passengers per Train')
         plt.xticks(rotation=45)
@@ -399,3 +398,35 @@ def build_terminal_to_station_lookup(distances_csv_path, output_csv_path):
     })
     lookup_df.to_csv(output_csv_path, index=False)
     return lookup_df
+
+# Only run if called directly (not on import)
+if __name__ == "__main__":
+    # Example usage
+    import sys
+    sys.path.append("..")
+    from data_processing.preprocess import DataPreprocessor
+    from optimization.optimize import TrainScheduler
+    
+    # Load and process data
+    preprocessor = DataPreprocessor(
+        passenger_data_path="data/passenger_flow/passenger_data.csv",
+        gtfs_data_path="data/gtfs"
+    )
+    passenger_data, time_slots = preprocessor.process_data()
+    
+    # Create scheduler and optimize
+    scheduler = TrainScheduler(passenger_data, time_slots)
+    optimization_results = scheduler.simulated_annealing()
+    
+    # Create visualizer and generate plots
+    visualizer = ScheduleVisualizer(passenger_data, optimization_results)
+    visualizer.plot_demand_distribution('plots/demand_distribution.png')
+    visualizer.plot_train_allocation('plots/train_allocation.png')
+    visualizer.plot_load_distribution(1000, 'plots/load_distribution.png')
+    visualizer.generate_report(1000, 'reports/optimization_report.json')
+
+    # Generate the full ETA table for use in the Streamlit app
+    schedule_csv = os.path.join(os.path.dirname(__file__), '../../reports/simple_schedule_sa.csv')
+    distances_csv = os.path.join(os.path.dirname(__file__), '../../MBTA_Rapid_Transit_Stop_Distances.csv')
+    output_csv = os.path.join(os.path.dirname(__file__), '../../reports/full_eta_table.csv')
+    generate_full_eta_table(schedule_csv, distances_csv, output_csv) 

@@ -3,8 +3,6 @@ import pandas as pd
 from typing import Dict, List, Tuple
 from dataclasses import dataclass
 import random
-from optimization.cost import CostFunction
-
 
 @dataclass
 class TimeSlot:
@@ -16,12 +14,11 @@ class TimeSlot:
     min_frequency: int = 15  # Minimum frequency in minutes
     max_frequency: int = 30  # Maximum frequency in minutes
 
-class SimulatedAnnealingTrainScheduler:
+class TrainScheduler:
     def __init__(self, 
                  passenger_data: pd.DataFrame,
                  time_slots: pd.DataFrame,
                  train_capacity: int = 1000,
-                 min_trains: int = 3,
                  min_frequency: int = 15,
                  max_frequency: int = 30):
         """
@@ -39,7 +36,6 @@ class SimulatedAnnealingTrainScheduler:
         self.train_capacity = train_capacity
         self.min_frequency = min_frequency
         self.max_frequency = max_frequency
-        self.min_trains = min_trains
         self.slots: Dict[tuple, TimeSlot] = {}
         # Penalty configuration
         self.penalties = {
@@ -131,7 +127,7 @@ class SimulatedAnnealingTrainScheduler:
                 
         return total_cost
     
-    def optimize_frequency(self, geo_mean_df, max_iterations: int = 1000) -> dict:
+    def optimize_frequency(self, geo_mean_df, train_capacity=1000, min_trains=3, max_iterations: int = 1000) -> dict:
         """
         Use simulated annealing local search to optimize train allocation per hour.
         Args:
@@ -150,12 +146,53 @@ class SimulatedAnnealingTrainScheduler:
         # Start with RANDOM allocation instead of deterministic demand-driven
         for key, slot in self.slots.items():
             # Random initial allocation within constraints
-            min_possible = max(self.min_trains, int(60 / slot.max_frequency))
+            min_possible = max(min_trains, int(60 / slot.max_frequency))
             max_possible = min(slot.max_slots, int(60 / slot.min_frequency))
             slot.current_trains = random.randint(min_possible, max_possible)
         
+        # Improved cost function with better gradients
+        def cost_fn():
+            total_cost = 0
+            for key, slot in self.slots.items():
+                day_type, hour, direction = key
+                geo_mean_ons = self.geo_lookup.get((day_type, hour, direction), 0)
+                trains = slot.current_trains
+                
+                # Constraint violations
+                if trains < min_trains or trains > slot.max_slots:
+                    total_cost += self.penalties['constraint_violation']
+                    continue
+                
+                if trains > 0:
+                    # Load-based cost with smoother gradients
+                    load_per_train = geo_mean_ons / trains
+                    
+                    # Overload penalty (quadratic)
+                    overload = max(0, load_per_train - train_capacity)
+                    total_cost += overload**2 * self.penalties['overload']
+                    
+                    # Underutilization penalty (linear, not quadratic)
+                    underutil = max(0, train_capacity * 0.3 - load_per_train)  # Penalize if less than 30% full
+                    total_cost += underutil * self.penalties['underutil']
+                    
+                    # Wait time cost (proportional to demand)
+                    frequency = 60 / trains
+                    wait_time = frequency / 2
+                    total_cost += wait_time * geo_mean_ons * self.penalties['wait_time']
+                    
+                    # Frequency constraint cost (softer penalties)
+                    if frequency < slot.min_frequency:
+                        total_cost += (slot.min_frequency - frequency) * self.penalties['frequency']
+                    elif frequency > slot.max_frequency:
+                        total_cost += (frequency - slot.max_frequency) * self.penalties['frequency']
+                else:
+                    # Heavy penalty for no trains when there's demand
+                    if geo_mean_ons > 0:
+                        total_cost += self.penalties['no_trains']
+                        
+            return total_cost
         
-        current_cost = CostFunction(self).cost_fn()
+        current_cost = cost_fn()
         best_solution = {key: slot.current_trains for key, slot in self.slots.items()}
         best_cost = current_cost
         
@@ -163,7 +200,7 @@ class SimulatedAnnealingTrainScheduler:
         temperature = 1000.0  # Higher initial temperature for more exploration
         cooling_rate = 0.995  # Slower cooling
         
-        print(f"SA Initial Cost: {current_cost}")
+        print(f"SA Initial Cost: {current_cost:,.2f}")
         
         cost_progress = []  # Track cost at each iteration
         
@@ -180,10 +217,10 @@ class SimulatedAnnealingTrainScheduler:
                 # More aggressive changes
                 change = random.choice([-2, -1, 1, 2])  # Allow bigger jumps
                 new_trains = slot.current_trains + change
-                new_trains = max(self.min_trains, min(new_trains, slot.max_slots))
+                new_trains = max(min_trains, min(new_trains, slot.max_slots))
                 slot.current_trains = new_trains
             
-            new_cost = CostFunction(self).cost_fn()
+            new_cost = cost_fn()
             
             # Acceptance probability (Metropolis criterion)
             cost_diff = new_cost - current_cost
@@ -215,7 +252,7 @@ class SimulatedAnnealingTrainScheduler:
         for key, slot in self.slots.items():
             frequency = 60 / slot.current_trains if slot.current_trains > 0 else float('inf')
             if frequency < slot.min_frequency:
-                slot.current_trains = max(slot.current_trains - 1, self.min_trains)
+                slot.current_trains = max(slot.current_trains - 1, min_trains)
             elif frequency > slot.max_frequency:
                 slot.current_trains = min(slot.current_trains + 1, slot.max_slots)
         
@@ -239,7 +276,7 @@ class SimulatedAnnealingTrainScheduler:
             })
         return pd.DataFrame(analysis_data)
 
-'''if __name__ == "__main__":
+if __name__ == "__main__":
     # Example usage
     import sys
     sys.path.append("..")
@@ -267,6 +304,4 @@ class SimulatedAnnealingTrainScheduler:
     # Analyze frequency distribution
     frequency_analysis = scheduler.get_frequency_analysis(solution)
     print("\nFrequency Analysis:")
-    print(frequency_analysis.to_string(index=False))  '''
-    
-    
+    print(frequency_analysis.to_string(index=False)) 
