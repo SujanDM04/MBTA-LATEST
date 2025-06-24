@@ -21,7 +21,7 @@ class GeneticAlgorithmScheduler:
         self.train_capacity = train_capacity
         self.min_trains = min_trains
         self.population_size = population_size
-        self.generations = generations  # Increased to 1000
+        self.generations = generations  
         self.mutation_rate = mutation_rate
         self.elite_size = elite_size
         self.crossover_rate = crossover_rate
