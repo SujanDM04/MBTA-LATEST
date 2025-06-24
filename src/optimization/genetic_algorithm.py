@@ -113,15 +113,6 @@ class GeneticAlgorithmScheduler:
                 return population[i][:]
         return population[-1][:]  # fallback
 
-    def uniform_crossover(self, parent1, parent2):
-        """Standard uniform crossover"""
-        child1, child2 = parent1[:], parent2[:]
-        
-        for i in range(len(parent1)):
-            if random.random() < 0.5:
-                child1[i], child2[i] = child2[i], child1[i]
-        
-        return child1, child2
 
     def single_point_crossover(self, parent1, parent2):
         """Standard single-point crossover"""
@@ -201,7 +192,7 @@ class GeneticAlgorithmScheduler:
                 
                 # Crossover
                 if random.random() < self.crossover_rate:
-                    child1, child2 = self.uniform_crossover(parent1, parent2)
+                    child1, child2 = self.single_point_crossover(parent1, parent2)
                 else:
                     child1, child2 = parent1[:], parent2[:]
                 
