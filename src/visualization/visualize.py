@@ -8,7 +8,7 @@ import os
 from datetime import datetime, timedelta
 
 class ScheduleVisualizer:
-    def __init__(self, passenger_data: pd.DataFrame, optimization_results: Dict[str, int]):
+    def __init__(self, passenger_data: pd.DataFrame, optimization_results: Dict[str, int],type_of_optimization: str):
         """
         Initialize the schedule visualizer.
         
@@ -18,6 +18,7 @@ class ScheduleVisualizer:
         """
         self.passenger_data = passenger_data
         self.optimization_results = optimization_results
+        self.type_of_optimization = type_of_optimization
         
     def plot_demand_distribution(self, save_path: str = None):
         """
@@ -55,7 +56,7 @@ class ScheduleVisualizer:
             errorbar=None
         )
 
-        plt.title('Passenger Demand Distribution per Day by Hour and Direction')
+        plt.title('Passenger Demand Distribution per Day by Hour and Direction for Orange Line')
         plt.xlabel('Hour of Day')
         plt.ylabel('Average Daily Passengers')
         plt.xticks(rotation=45)
@@ -92,7 +93,7 @@ class ScheduleVisualizer:
             hue='day_type_name',
             errorbar=None
         )
-        plt.title('Optimized Train Allocation by Hour and Direction')
+        plt.title('Optimized Train Allocation by Hour and Direction using ' + self.type_of_optimization)
         plt.xlabel('Hour of Day')
         plt.ylabel('Number of Trains')
         plt.xticks(rotation=45)
@@ -147,7 +148,7 @@ class ScheduleVisualizer:
         )
         # Add capacity line
         plt.axhline(y=train_capacity, color='r', linestyle='--', label='Train Capacity')
-        plt.title('Passenger Load per Train by Hour and Direction')
+        plt.title('Passenger Load per Train by Hour and Direction using ' + self.type_of_optimization)
         plt.xlabel('Hour of Day')
         plt.ylabel('Passengers per Train')
         plt.xticks(rotation=45)
@@ -405,7 +406,7 @@ if __name__ == "__main__":
     import sys
     sys.path.append("..")
     from data_processing.preprocess import DataPreprocessor
-    from optimization.optimize import TrainScheduler
+    from optimization.simulated_annealing import TrainScheduler
     
     # Load and process data
     preprocessor = DataPreprocessor(
