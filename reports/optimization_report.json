@@ -1,46 +1,46 @@
 {
     "optimization_results": {
-        "saturday|4|0": 3,
+        "saturday|4|0": 10,
         "saturday|4|1": 3,
-        "saturday|5|0": 3,
+        "saturday|5|0": 5,
         "saturday|5|1": 3,
-        "saturday|6|0": 7,
+        "saturday|6|0": 3,
         "saturday|6|1": 3,
         "saturday|7|0": 3,
-        "saturday|7|1": 3,
+        "saturday|7|1": 6,
         "saturday|8|0": 3,
         "saturday|8|1": 3,
-        "saturday|9|0": 3,
-        "saturday|9|1": 3,
-        "saturday|10|0": 3,
+        "saturday|9|0": 9,
+        "saturday|9|1": 4,
+        "saturday|10|0": 4,
         "saturday|10|1": 3,
         "saturday|11|0": 3,
         "saturday|11|1": 3,
-        "saturday|12|0": 3,
+        "saturday|12|0": 7,
         "saturday|12|1": 3,
         "saturday|13|0": 3,
         "saturday|13|1": 3,
         "saturday|14|0": 3,
         "saturday|14|1": 3,
-        "saturday|15|0": 3,
-        "saturday|15|1": 8,
+        "saturday|15|0": 6,
+        "saturday|15|1": 5,
         "saturday|16|0": 3,
-        "saturday|16|1": 7,
+        "saturday|16|1": 3,
         "saturday|17|0": 3,
         "saturday|17|1": 3,
-        "saturday|18|0": 3,
+        "saturday|18|0": 4,
         "saturday|18|1": 3,
         "saturday|19|0": 3,
         "saturday|19|1": 3,
         "saturday|20|0": 3,
         "saturday|20|1": 3,
-        "saturday|21|0": 3,
+        "saturday|21|0": 10,
         "saturday|21|1": 3,
         "saturday|22|0": 3,
         "saturday|22|1": 3,
-        "saturday|23|0": 4,
-        "saturday|23|1": 5,
-        "sunday|4|0": 3,
+        "saturday|23|0": 3,
+        "saturday|23|1": 3,
+        "sunday|4|0": 4,
         "sunday|4|1": 3,
         "sunday|5|0": 3,
         "sunday|5|1": 3,
@@ -48,87 +48,87 @@
         "sunday|6|1": 3,
         "sunday|7|0": 3,
         "sunday|7|1": 3,
-        "sunday|8|0": 9,
-        "sunday|8|1": 4,
-        "sunday|9|0": 5,
+        "sunday|8|0": 3,
+        "sunday|8|1": 3,
+        "sunday|9|0": 4,
         "sunday|9|1": 3,
-        "sunday|10|0": 10,
-        "sunday|10|1": 4,
+        "sunday|10|0": 3,
+        "sunday|10|1": 3,
         "sunday|11|0": 3,
         "sunday|11|1": 4,
         "sunday|12|0": 3,
         "sunday|12|1": 3,
-        "sunday|13|0": 5,
-        "sunday|13|1": 3,
+        "sunday|13|0": 3,
+        "sunday|13|1": 5,
         "sunday|14|0": 3,
-        "sunday|14|1": 10,
+        "sunday|14|1": 3,
         "sunday|15|0": 3,
-        "sunday|15|1": 3,
+        "sunday|15|1": 7,
         "sunday|16|0": 3,
         "sunday|16|1": 3,
-        "sunday|17|0": 9,
+        "sunday|17|0": 3,
         "sunday|17|1": 3,
-        "sunday|18|0": 5,
+        "sunday|18|0": 3,
         "sunday|18|1": 3,
         "sunday|19|0": 3,
         "sunday|19|1": 3,
-        "sunday|20|0": 3,
-        "sunday|20|1": 3,
+        "sunday|20|0": 4,
+        "sunday|20|1": 5,
         "sunday|21|0": 3,
         "sunday|21|1": 3,
         "sunday|22|0": 3,
         "sunday|22|1": 3,
         "sunday|23|0": 3,
         "sunday|23|1": 3,
-        "weekday|1|0": 3,
-        "weekday|1|1": 7,
-        "weekday|4|0": 3,
+        "weekday|1|0": 7,
+        "weekday|1|1": 3,
+        "weekday|4|0": 5,
         "weekday|4|1": 3,
         "weekday|5|0": 3,
-        "weekday|5|1": 4,
-        "weekday|6|0": 9,
+        "weekday|5|1": 6,
+        "weekday|6|0": 10,
         "weekday|6|1": 9,
         "weekday|7|0": 10,
-        "weekday|7|1": 10,
+        "weekday|7|1": 9,
         "weekday|8|0": 10,
         "weekday|8|1": 10,
         "weekday|9|0": 10,
-        "weekday|9|1": 8,
-        "weekday|10|0": 10,
-        "weekday|10|1": 10,
-        "weekday|11|0": 8,
+        "weekday|9|1": 9,
+        "weekday|10|0": 9,
+        "weekday|10|1": 9,
+        "weekday|11|0": 10,
         "weekday|11|1": 10,
-        "weekday|12|0": 8,
+        "weekday|12|0": 9,
         "weekday|12|1": 10,
-        "weekday|13|0": 7,
-        "weekday|13|1": 10,
+        "weekday|13|0": 10,
+        "weekday|13|1": 9,
         "weekday|14|0": 10,
         "weekday|14|1": 10,
         "weekday|15|0": 10,
-        "weekday|15|1": 8,
+        "weekday|15|1": 9,
         "weekday|16|0": 10,
         "weekday|16|1": 10,
         "weekday|17|0": 10,
         "weekday|17|1": 10,
-        "weekday|18|0": 7,
-        "weekday|18|1": 9,
+        "weekday|18|0": 10,
+        "weekday|18|1": 8,
         "weekday|19|0": 10,
         "weekday|19|1": 10,
-        "weekday|20|0": 10,
+        "weekday|20|0": 9,
         "weekday|20|1": 10,
         "weekday|21|0": 4,
         "weekday|21|1": 5,
         "weekday|22|0": 4,
-        "weekday|22|1": 4,
-        "weekday|23|0": 5,
+        "weekday|22|1": 3,
+        "weekday|23|0": 4,
         "weekday|23|1": 5
     },
     "summary_statistics": {
         "saturday|4|0": {
-            "trains_allocated": 3,
+            "trains_allocated": 10,
             "total_demand": 62529,
-            "load_per_train": 20843,
-            "capacity_utilization": 2084.31
+            "load_per_train": 6252,
+            "capacity_utilization": 625.29
         },
         "saturday|4|1": {
             "trains_allocated": 3,
@@ -137,10 +137,10 @@
             "capacity_utilization": 2320.46
         },
         "saturday|5|0": {
-            "trains_allocated": 3,
+            "trains_allocated": 5,
             "total_demand": 62529,
-            "load_per_train": 20843,
-            "capacity_utilization": 2084.31
+            "load_per_train": 12505,
+            "capacity_utilization": 1250.59
         },
         "saturday|5|1": {
             "trains_allocated": 3,
@@ -149,10 +149,10 @@
             "capacity_utilization": 2320.46
         },
         "saturday|6|0": {
-            "trains_allocated": 7,
+            "trains_allocated": 3,
             "total_demand": 62529,
-            "load_per_train": 8932,
-            "capacity_utilization": 893.28
+            "load_per_train": 20843,
+            "capacity_utilization": 2084.31
         },
         "saturday|6|1": {
             "trains_allocated": 3,
@@ -167,10 +167,10 @@
             "capacity_utilization": 2084.31
         },
         "saturday|7|1": {
-            "trains_allocated": 3,
+            "trains_allocated": 6,
             "total_demand": 69613,
-            "load_per_train": 23204,
-            "capacity_utilization": 2320.46
+            "load_per_train": 11602,
+            "capacity_utilization": 1160.23
         },
         "saturday|8|0": {
             "trains_allocated": 3,
@@ -185,22 +185,22 @@
             "capacity_utilization": 2320.46
         },
         "saturday|9|0": {
-            "trains_allocated": 3,
+            "trains_allocated": 9,
             "total_demand": 62529,
-            "load_per_train": 20843,
-            "capacity_utilization": 2084.31
+            "load_per_train": 6947,
+            "capacity_utilization": 694.77
         },
         "saturday|9|1": {
-            "trains_allocated": 3,
+            "trains_allocated": 4,
             "total_demand": 69613,
-            "load_per_train": 23204,
-            "capacity_utilization": 2320.46
+            "load_per_train": 17403,
+            "capacity_utilization": 1740.34
         },
         "saturday|10|0": {
-            "trains_allocated": 3,
+            "trains_allocated": 4,
             "total_demand": 62529,
-            "load_per_train": 20843,
-            "capacity_utilization": 2084.31
+            "load_per_train": 15632,
+            "capacity_utilization": 1563.24
         },
         "saturday|10|1": {
             "trains_allocated": 3,
@@ -221,10 +221,10 @@
             "capacity_utilization": 2320.46
         },
         "saturday|12|0": {
-            "trains_allocated": 3,
+            "trains_allocated": 7,
             "total_demand": 62529,
-            "load_per_train": 20843,
-            "capacity_utilization": 2084.31
+            "load_per_train": 8932,
+            "capacity_utilization": 893.28
         },
         "saturday|12|1": {
             "trains_allocated": 3,
@@ -257,16 +257,16 @@
             "capacity_utilization": 2320.46
         },
         "saturday|15|0": {
-            "trains_allocated": 3,
+            "trains_allocated": 6,
             "total_demand": 62529,
-            "load_per_train": 20843,
-            "capacity_utilization": 2084.31
+            "load_per_train": 10421,
+            "capacity_utilization": 1042.16
         },
         "saturday|15|1": {
-            "trains_allocated": 8,
+            "trains_allocated": 5,
             "total_demand": 69613,
-            "load_per_train": 8701,
-            "capacity_utilization": 870.17
+            "load_per_train": 13922,
+            "capacity_utilization": 1392.27
         },
         "saturday|16|0": {
             "trains_allocated": 3,
@@ -275,10 +275,10 @@
             "capacity_utilization": 2084.31
         },
         "saturday|16|1": {
-            "trains_allocated": 7,
+            "trains_allocated": 3,
             "total_demand": 69613,
-            "load_per_train": 9944,
-            "capacity_utilization": 994.48
+            "load_per_train": 23204,
+            "capacity_utilization": 2320.46
         },
         "saturday|17|0": {
             "trains_allocated": 3,
@@ -293,10 +293,10 @@
             "capacity_utilization": 2320.46
         },
         "saturday|18|0": {
-            "trains_allocated": 3,
+            "trains_allocated": 4,
             "total_demand": 62529,
-            "load_per_train": 20843,
-            "capacity_utilization": 2084.31
+            "load_per_train": 15632,
+            "capacity_utilization": 1563.24
         },
         "saturday|18|1": {
             "trains_allocated": 3,
@@ -329,10 +329,10 @@
             "capacity_utilization": 2320.46
         },
         "saturday|21|0": {
-            "trains_allocated": 3,
+            "trains_allocated": 10,
             "total_demand": 62529,
-            "load_per_train": 20843,
-            "capacity_utilization": 2084.31
+            "load_per_train": 6252,
+            "capacity_utilization": 625.29
         },
         "saturday|21|1": {
             "trains_allocated": 3,
@@ -353,22 +353,22 @@
             "capacity_utilization": 2320.46
         },
         "saturday|23|0": {
-            "trains_allocated": 4,
+            "trains_allocated": 3,
             "total_demand": 62529,
-            "load_per_train": 15632,
-            "capacity_utilization": 1563.24
+            "load_per_train": 20843,
+            "capacity_utilization": 2084.31
         },
         "saturday|23|1": {
-            "trains_allocated": 5,
+            "trains_allocated": 3,
             "total_demand": 69613,
-            "load_per_train": 13922,
-            "capacity_utilization": 1392.27
+            "load_per_train": 23204,
+            "capacity_utilization": 2320.46
         },
         "sunday|4|0": {
-            "trains_allocated": 3,
+            "trains_allocated": 4,
             "total_demand": 43102,
-            "load_per_train": 14367,
-            "capacity_utilization": 1436.76
+            "load_per_train": 10775,
+            "capacity_utilization": 1077.57
         },
         "sunday|4|1": {
             "trains_allocated": 3,
@@ -413,22 +413,22 @@
             "capacity_utilization": 1585.14
         },
         "sunday|8|0": {
-            "trains_allocated": 9,
+            "trains_allocated": 3,
             "total_demand": 43102,
-            "load_per_train": 4789,
-            "capacity_utilization": 478.92
+            "load_per_train": 14367,
+            "capacity_utilization": 1436.76
         },
         "sunday|8|1": {
-            "trains_allocated": 4,
+            "trains_allocated": 3,
             "total_demand": 47554,
-            "load_per_train": 11888,
-            "capacity_utilization": 1188.85
+            "load_per_train": 15851,
+            "capacity_utilization": 1585.14
         },
         "sunday|9|0": {
-            "trains_allocated": 5,
+            "trains_allocated": 4,
             "total_demand": 43102,
-            "load_per_train": 8620,
-            "capacity_utilization": 862.05
+            "load_per_train": 10775,
+            "capacity_utilization": 1077.57
         },
         "sunday|9|1": {
             "trains_allocated": 3,
@@ -437,16 +437,16 @@
             "capacity_utilization": 1585.14
         },
         "sunday|10|0": {
-            "trains_allocated": 10,
+            "trains_allocated": 3,
             "total_demand": 43102,
-            "load_per_train": 4310,
-            "capacity_utilization": 431.03
+            "load_per_train": 14367,
+            "capacity_utilization": 1436.76
         },
         "sunday|10|1": {
-            "trains_allocated": 4,
+            "trains_allocated": 3,
             "total_demand": 47554,
-            "load_per_train": 11888,
-            "capacity_utilization": 1188.85
+            "load_per_train": 15851,
+            "capacity_utilization": 1585.14
         },
         "sunday|11|0": {
             "trains_allocated": 3,
@@ -473,16 +473,16 @@
             "capacity_utilization": 1585.14
         },
         "sunday|13|0": {
-            "trains_allocated": 5,
+            "trains_allocated": 3,
             "total_demand": 43102,
-            "load_per_train": 8620,
-            "capacity_utilization": 862.05
+            "load_per_train": 14367,
+            "capacity_utilization": 1436.76
         },
         "sunday|13|1": {
-            "trains_allocated": 3,
+            "trains_allocated": 5,
             "total_demand": 47554,
-            "load_per_train": 15851,
-            "capacity_utilization": 1585.14
+            "load_per_train": 9510,
+            "capacity_utilization": 951.08
         },
         "sunday|14|0": {
             "trains_allocated": 3,
@@ -491,10 +491,10 @@
             "capacity_utilization": 1436.76
         },
         "sunday|14|1": {
-            "trains_allocated": 10,
+            "trains_allocated": 3,
             "total_demand": 47554,
-            "load_per_train": 4755,
-            "capacity_utilization": 475.54
+            "load_per_train": 15851,
+            "capacity_utilization": 1585.14
         },
         "sunday|15|0": {
             "trains_allocated": 3,
@@ -503,10 +503,10 @@
             "capacity_utilization": 1436.76
         },
         "sunday|15|1": {
-            "trains_allocated": 3,
+            "trains_allocated": 7,
             "total_demand": 47554,
-            "load_per_train": 15851,
-            "capacity_utilization": 1585.14
+            "load_per_train": 6793,
+            "capacity_utilization": 679.34
         },
         "sunday|16|0": {
             "trains_allocated": 3,
@@ -521,10 +521,10 @@
             "capacity_utilization": 1585.14
         },
         "sunday|17|0": {
-            "trains_allocated": 9,
+            "trains_allocated": 3,
             "total_demand": 43102,
-            "load_per_train": 4789,
-            "capacity_utilization": 478.92
+            "load_per_train": 14367,
+            "capacity_utilization": 1436.76
         },
         "sunday|17|1": {
             "trains_allocated": 3,
@@ -533,10 +533,10 @@
             "capacity_utilization": 1585.14
         },
         "sunday|18|0": {
-            "trains_allocated": 5,
+            "trains_allocated": 3,
             "total_demand": 43102,
-            "load_per_train": 8620,
-            "capacity_utilization": 862.05
+            "load_per_train": 14367,
+            "capacity_utilization": 1436.76
         },
         "sunday|18|1": {
             "trains_allocated": 3,
@@ -557,16 +557,16 @@
             "capacity_utilization": 1585.14
         },
         "sunday|20|0": {
-            "trains_allocated": 3,
+            "trains_allocated": 4,
             "total_demand": 43102,
-            "load_per_train": 14367,
-            "capacity_utilization": 1436.76
+            "load_per_train": 10775,
+            "capacity_utilization": 1077.57
         },
         "sunday|20|1": {
-            "trains_allocated": 3,
+            "trains_allocated": 5,
             "total_demand": 47554,
-            "load_per_train": 15851,
-            "capacity_utilization": 1585.14
+            "load_per_train": 9510,
+            "capacity_utilization": 951.08
         },
         "sunday|21|0": {
             "trains_allocated": 3,
@@ -605,22 +605,22 @@
             "capacity_utilization": 1585.14
         },
         "weekday|1|0": {
-            "trains_allocated": 3,
+            "trains_allocated": 7,
             "total_demand": 17639,
-            "load_per_train": 5879,
-            "capacity_utilization": 587.98
+            "load_per_train": 2519,
+            "capacity_utilization": 251.99
         },
         "weekday|1|1": {
-            "trains_allocated": 7,
+            "trains_allocated": 3,
             "total_demand": 22397,
-            "load_per_train": 3199,
-            "capacity_utilization": 319.97
+            "load_per_train": 7465,
+            "capacity_utilization": 746.59
         },
         "weekday|4|0": {
-            "trains_allocated": 3,
+            "trains_allocated": 5,
             "total_demand": 138009,
-            "load_per_train": 46003,
-            "capacity_utilization": 4600.32
+            "load_per_train": 27601,
+            "capacity_utilization": 2760.19
         },
         "weekday|4|1": {
             "trains_allocated": 3,
@@ -635,16 +635,16 @@
             "capacity_utilization": 4600.32
         },
         "weekday|5|1": {
-            "trains_allocated": 4,
+            "trains_allocated": 6,
             "total_demand": 75071,
-            "load_per_train": 18767,
-            "capacity_utilization": 1876.78
+            "load_per_train": 12511,
+            "capacity_utilization": 1251.18
         },
         "weekday|6|0": {
-            "trains_allocated": 9,
+            "trains_allocated": 10,
             "total_demand": 1030574,
-            "load_per_train": 114508,
-            "capacity_utilization": 11450.82
+            "load_per_train": 103057,
+            "capacity_utilization": 10305.74
         },
         "weekday|6|1": {
             "trains_allocated": 9,
@@ -659,10 +659,10 @@
             "capacity_utilization": 19086.44
         },
         "weekday|7|1": {
-            "trains_allocated": 10,
+            "trains_allocated": 9,
             "total_demand": 1509079,
-            "load_per_train": 150907,
-            "capacity_utilization": 15090.8
+            "load_per_train": 167675,
+            "capacity_utilization": 16767.55
         },
         "weekday|8|0": {
             "trains_allocated": 10,
@@ -683,28 +683,28 @@
             "capacity_utilization": 9602.8
         },
         "weekday|9|1": {
-            "trains_allocated": 8,
+            "trains_allocated": 9,
             "total_demand": 960800,
-            "load_per_train": 120100,
-            "capacity_utilization": 12010.0
+            "load_per_train": 106755,
+            "capacity_utilization": 10675.56
         },
         "weekday|10|0": {
+            "trains_allocated": 9,
+            "total_demand": 960279,
+            "load_per_train": 106697,
+            "capacity_utilization": 10669.78
+        },
+        "weekday|10|1": {
+            "trains_allocated": 9,
+            "total_demand": 960800,
+            "load_per_train": 106755,
+            "capacity_utilization": 10675.56
+        },
+        "weekday|11|0": {
             "trains_allocated": 10,
             "total_demand": 960279,
             "load_per_train": 96027,
             "capacity_utilization": 9602.8
-        },
-        "weekday|10|1": {
-            "trains_allocated": 10,
-            "total_demand": 960800,
-            "load_per_train": 96080,
-            "capacity_utilization": 9608.0
-        },
-        "weekday|11|0": {
-            "trains_allocated": 8,
-            "total_demand": 960279,
-            "load_per_train": 120034,
-            "capacity_utilization": 12003.5
         },
         "weekday|11|1": {
             "trains_allocated": 10,
@@ -713,10 +713,10 @@
             "capacity_utilization": 9608.0
         },
         "weekday|12|0": {
-            "trains_allocated": 8,
+            "trains_allocated": 9,
             "total_demand": 960279,
-            "load_per_train": 120034,
-            "capacity_utilization": 12003.5
+            "load_per_train": 106697,
+            "capacity_utilization": 10669.78
         },
         "weekday|12|1": {
             "trains_allocated": 10,
@@ -725,16 +725,16 @@
             "capacity_utilization": 9608.0
         },
         "weekday|13|0": {
-            "trains_allocated": 7,
+            "trains_allocated": 10,
             "total_demand": 960279,
-            "load_per_train": 137182,
-            "capacity_utilization": 13718.28
+            "load_per_train": 96027,
+            "capacity_utilization": 9602.8
         },
         "weekday|13|1": {
-            "trains_allocated": 10,
+            "trains_allocated": 9,
             "total_demand": 960800,
-            "load_per_train": 96080,
-            "capacity_utilization": 9608.0
+            "load_per_train": 106755,
+            "capacity_utilization": 10675.56
         },
         "weekday|14|0": {
             "trains_allocated": 10,
@@ -755,10 +755,10 @@
             "capacity_utilization": 4932.33
         },
         "weekday|15|1": {
-            "trains_allocated": 8,
+            "trains_allocated": 9,
             "total_demand": 443537,
-            "load_per_train": 55442,
-            "capacity_utilization": 5544.22
+            "load_per_train": 49281,
+            "capacity_utilization": 4928.2
         },
         "weekday|16|0": {
             "trains_allocated": 10,
@@ -785,16 +785,16 @@
             "capacity_utilization": 23010.94
         },
         "weekday|18|0": {
-            "trains_allocated": 7,
+            "trains_allocated": 10,
             "total_demand": 621416,
-            "load_per_train": 88773,
-            "capacity_utilization": 8877.38
+            "load_per_train": 62141,
+            "capacity_utilization": 6214.16
         },
         "weekday|18|1": {
-            "trains_allocated": 9,
+            "trains_allocated": 8,
             "total_demand": 735844,
-            "load_per_train": 81760,
-            "capacity_utilization": 8176.05
+            "load_per_train": 91980,
+            "capacity_utilization": 9198.05
         },
         "weekday|19|0": {
             "trains_allocated": 10,
@@ -809,10 +809,10 @@
             "capacity_utilization": 7358.44
         },
         "weekday|20|0": {
-            "trains_allocated": 10,
+            "trains_allocated": 9,
             "total_demand": 621416,
-            "load_per_train": 62141,
-            "capacity_utilization": 6214.16
+            "load_per_train": 69046,
+            "capacity_utilization": 6904.63
         },
         "weekday|20|1": {
             "trains_allocated": 10,
@@ -839,16 +839,16 @@
             "capacity_utilization": 4194.18
         },
         "weekday|22|1": {
-            "trains_allocated": 4,
+            "trains_allocated": 3,
             "total_demand": 208375,
-            "load_per_train": 52093,
-            "capacity_utilization": 5209.39
+            "load_per_train": 69458,
+            "capacity_utilization": 6945.86
         },
         "weekday|23|0": {
-            "trains_allocated": 5,
+            "trains_allocated": 4,
             "total_demand": 167767,
-            "load_per_train": 33553,
-            "capacity_utilization": 3355.35
+            "load_per_train": 41941,
+            "capacity_utilization": 4194.18
         },
         "weekday|23|1": {
             "trains_allocated": 5,
