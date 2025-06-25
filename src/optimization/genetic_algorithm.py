@@ -1,5 +1,6 @@
 import random
 import numpy as np
+from optimization.cost import CostFunction
 
 class GeneticAlgorithmScheduler:
     def __init__(self, slots, geo_mean_df, penalties, train_capacity=1000, min_trains=3, 
@@ -35,53 +36,11 @@ class GeneticAlgorithmScheduler:
             for _, row in geo_mean_df.iterrows()
         }
 
-    def cost_fn(self):
-        """Calculate total cost for current train allocation"""
-        total_cost = 0
-        for key, slot in self.slots.items():
-            day_type, hour, direction = key
-            geo_mean_ons = self.geo_lookup.get((day_type, hour, direction), 0)
-            trains = slot.current_trains
-            
-            # Constraint violations
-            if trains < self.min_trains or trains > slot.max_slots:
-                total_cost += self.penalties['constraint_violation']
-                continue
-            
-            if trains > 0:
-                # Load-based cost
-                load_per_train = geo_mean_ons / trains
-                
-                # Overload penalty
-                overload = max(0, load_per_train - self.train_capacity)
-                total_cost += overload**2 * self.penalties['overload']
-                
-                # Underutilization penalty
-                underutil = max(0, self.train_capacity * 0.3 - load_per_train)
-                total_cost += underutil * self.penalties['underutil']
-                
-                # Wait time cost
-                frequency = 60 / trains
-                wait_time = frequency / 2
-                total_cost += wait_time * geo_mean_ons * self.penalties['wait_time']
-                
-                # Frequency constraint cost
-                if frequency < slot.min_frequency:
-                    total_cost += (slot.min_frequency - frequency) * self.penalties['frequency']
-                elif frequency > slot.max_frequency:
-                    total_cost += (frequency - slot.max_frequency) * self.penalties['frequency']
-            else:
-                # Penalty for no trains when there's demand
-                if geo_mean_ons > 0:
-                    total_cost += self.penalties['no_trains']
-                    
-        return total_cost
-
     def compute_fitness(self, chromosome):
         """Apply chromosome to slots and compute fitness (inverse of cost)"""
         for i, key in enumerate(self.slot_keys):
             self.slots[key].current_trains = chromosome[i]
-        cost = self.cost_fn()
+        cost = CostFunction(self).cost_fn()
         return 1 / (1 + cost)
 
     def initialize_population(self):
@@ -91,9 +50,9 @@ class GeneticAlgorithmScheduler:
             individual = []
             for key in self.slot_keys:
                 slot = self.slots[key]
-                # Random allocation within valid range
-                min_possible = max(self.min_trains, int(60 / slot.max_frequency))
-                max_possible = min(slot.max_slots, int(60 / slot.min_frequency))
+                # Updated: use full valid range without frequency-based limits
+                min_possible = self.min_trains
+                max_possible = slot.max_slots
                 trains = random.randint(min_possible, max_possible)
                 individual.append(trains)
             population.append(individual)
@@ -141,9 +100,9 @@ class GeneticAlgorithmScheduler:
         for i in range(len(mutated)):
             if random.random() < self.mutation_rate:
                 slot = self.slots[self.slot_keys[i]]
-                # Generate new random value within constraints
-                min_possible = max(self.min_trains, int(60 / slot.max_frequency))
-                max_possible = min(slot.max_slots, int(60 / slot.min_frequency))
+                # Updated: use full valid range without frequency-based limits
+                min_possible = self.min_trains
+                max_possible = slot.max_slots
                 mutated[i] = random.randint(min_possible, max_possible)
         
         return mutated
@@ -152,7 +111,7 @@ class GeneticAlgorithmScheduler:
         """Main genetic algorithm optimization loop"""
         population = self.initialize_population()
         best_solution = None
-        best_fitness = -np.inf
+        best_fitness = 0
         best_cost = float('inf')
         cost_progress = []
 
