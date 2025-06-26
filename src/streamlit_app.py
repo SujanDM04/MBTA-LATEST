@@ -6,12 +6,12 @@ from pathlib import Path
 import os
 import glob
 
-# --- Robust Path Loading ---
+
 # Get the directory of the current script
 SCRIPT_DIR = Path(__file__).parent
-# Explicitly go up one directory to find the project root
+
 PROJECT_ROOT = (SCRIPT_DIR / '..').resolve()
-# ---
+
 
 
 ORANGE_LINE_STATIONS = [
@@ -41,7 +41,7 @@ def load_schedule_for_day_type(day_type):
     # Filter for the specific day type
     day_schedule = full_schedule_df[full_schedule_df['Day Type'] == day_type].copy()
     
-    # Create a simplified schedule for the app (similar to simple_schedule_sa.csv format)
+    # Create a simplified schedule for the app 
     simplified_schedule = []
     for _, row in day_schedule.iterrows():
         simplified_schedule.append({

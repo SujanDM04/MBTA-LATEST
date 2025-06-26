@@ -1,15 +1,33 @@
+"""
+Hill Climbing Algorithm for Train Scheduling Optimization
+
+This module implements a hill climbing approach to optimize train scheduling
+by iteratively improving solutions through local search with restarts.
+"""
+
 import numpy as np
 import random
 
 class HillClimbingTrainScheduler:
+    """
+    Hill Climbing Scheduler for optimizing train allocation.
+    
+    Implements a hill climbing algorithm with multiple restarts to find
+    optimal train schedules by making incremental improvements to solutions.
+    Uses the same cost function as simulated annealing for fair comparison.
+    """
+    
     def __init__(self, train_scheduler, geo_mean_df, train_capacity=1000, min_trains=3, max_iterations=1000, early_stopping_rounds=200):
         """
-        train_scheduler: an instance of TrainScheduler (with slots initialized)
-        geo_mean_df: DataFrame with geometric mean ons for each (day_type_name, hour, direction_id)
-        train_capacity: Maximum passengers per train
-        min_trains: Minimum number of trains per hour
-        max_iterations: Number of hill climbing iterations
-        early_stopping_rounds: Stop if no improvement after this many iterations
+        Initialize the Hill Climbing Scheduler.
+        
+        parameters:
+            train_scheduler: an instance of TrainScheduler (with slots initialized)
+            geo_mean_df: DataFrame with geometric mean ons for each (day_type_name, hour, direction_id)
+            train_capacity: Maximum passengers per train
+            min_trains: Minimum number of trains per hour
+            max_iterations: Number of hill climbing iterations
+            early_stopping_rounds: Stop if no improvement after this many iterations
         """
         self.train_scheduler = train_scheduler
         self.train_capacity = train_capacity
@@ -25,7 +43,7 @@ class HillClimbingTrainScheduler:
             'frequency': 100,
             'no_trains': 1e8
         }
-        # Preprocess geo_mean_df into a dict for fast lookup
+        # Preprocess geo_mean_df into a dict 
         self.geo_lookup = {(row['day_type_name'], row['hour'], row['direction_id']): row['geo_mean_ons'] for _, row in geo_mean_df.iterrows()}
 
     def cost_fn(self):
@@ -47,33 +65,39 @@ class HillClimbingTrainScheduler:
                 # Load-based cost with same logic as simulated annealing
                 load_per_train = geo_mean_ons / trains
                 
-                # Overload penalty (quadratic) - same as SA
+                # Overload penalty 
                 overload = max(0, load_per_train - self.train_capacity)
                 total_cost += overload**2 * self.penalties['overload']
                 
-                # Underutilization penalty (linear) - same as SA
+                # Underutilization penalty 
                 underutil = max(0, self.train_capacity * 0.3 - load_per_train)  # Penalize if less than 30% full
                 total_cost += underutil * self.penalties['underutil']
                 
-                # Wait time cost (proportional to demand) - same as SA
+                # Wait time cost 
                 frequency = 60 / trains
                 wait_time = frequency / 2
                 total_cost += wait_time * geo_mean_ons * self.penalties['wait_time']
                 
-                # Frequency constraint cost - same as SA
+                # Frequency constraint cost 
                 if frequency < slot.min_frequency:
                     total_cost += (slot.min_frequency - frequency) * self.penalties['frequency']
                 elif frequency > slot.max_frequency:
                     total_cost += (frequency - slot.max_frequency) * self.penalties['frequency']
             else:
-                # Heavy penalty for no trains when there's demand - same as SA
+                # Heavy penalty for no trains when there's demand 
                 if geo_mean_ons > 0:
                     total_cost += self.penalties['no_trains']
                     
         return total_cost
 
     def optimize(self):
-        # Initialize with same random strategy as simulated annealing
+        """
+        Run hill climbing optimization with multiple restarts.
+        
+        Returns:
+            tuple: (best_solution, cost_progress)
+        """
+        # Initialize with same random strategy 
         for key, slot in self.train_scheduler.slots.items():
             min_possible = max(self.min_trains, int(60 / slot.max_frequency))
             max_possible = min(slot.max_slots, int(60 / slot.min_frequency))
@@ -95,8 +119,8 @@ class HillClimbingTrainScheduler:
                 slot = self.train_scheduler.slots[slot_key]
                 old_trains = slot.current_trains
                 
-                # Use same change strategy as simulated annealing
-                change = random.choice([-2, -1, 1, 2])  # Allow bigger jumps like SA
+                
+                change = random.choice([-2, -1, 1, 2])  
                 new_trains = slot.current_trains + change
                 new_trains = max(self.min_trains, min(new_trains, slot.max_slots))
                 slot.current_trains = new_trains
@@ -121,7 +145,7 @@ class HillClimbingTrainScheduler:
                     print(f"Early stopping at iteration {i} due to no improvement.")
                     break
                     
-            # Reinitialize for next restart (same as SA random initialization)
+            # Reinitialize for next restart 
             if restart < max_restarts - 1:
                 for key, slot in self.train_scheduler.slots.items():
                     min_possible = max(self.min_trains, int(60 / slot.max_frequency))

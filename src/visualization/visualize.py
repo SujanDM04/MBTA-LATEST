@@ -127,7 +127,7 @@ class ScheduleVisualizer:
                 (self.passenger_data['hour'] == hour) &
                 (self.passenger_data['direction_id'] == direction)
             ]
-            # Use adjusted_max_onboard if available, else max_onboard, else total_ons
+            
             if 'adjusted_max_onboard' in slot_df.columns and not slot_df.empty:
                 demand = slot_df['adjusted_max_onboard'].iloc[0]
             elif 'max_onboard' in slot_df.columns and not slot_df.empty:
@@ -196,14 +196,14 @@ class ScheduleVisualizer:
                 'load_per_train': int(load_per_train),
                 'capacity_utilization': float(round(utilization, 2))
             }
-        # Convert tuple keys to strings for JSON serialization
+        # Convert tuple keys to strings
         report['optimization_results'] = {
             '|'.join(map(str, key)): int(value) for key, value in self.optimization_results.items()
         }
         report['summary_statistics'] = {
             '|'.join(map(str, key)): {k: (int(v) if isinstance(v, (np.integer, int)) else float(v)) for k, v in value.items()} for key, value in report['summary_statistics'].items()
         }
-        # Save report
+        
         with open(output_path, 'w') as f:
             json.dump(report, f, indent=4)
 
@@ -311,7 +311,7 @@ class ScheduleVisualizer:
         schedule_df = pd.DataFrame(schedule_data)
         schedule_df = schedule_df.sort_values(['Day Type', 'Hour', 'Direction', 'Departure Time'])
         
-        # Save to CSV if path provided
+        # Save to CSV 
         if save_path:
             schedule_df.to_csv(save_path, index=False)
             
@@ -344,7 +344,7 @@ class ScheduleVisualizer:
                         'Departure Time': departure_time
                     })
         schedule_df = pd.DataFrame(schedule_data)
-        # Deduplicate by Station and Departure Time
+
         schedule_df = schedule_df.drop_duplicates(subset=['Station', 'Departure Time'])
         schedule_df = schedule_df.sort_values(['Station', 'Departure Time'])
         if save_path:
@@ -418,20 +418,20 @@ def build_terminal_to_station_lookup(distances_csv_path, output_csv_path):
         cum_times_1.append(df[(df['direction_id'] == 1) & (df['to_stop_name'] == stop)]['cumulative_time'].values[0])
     # Build DataFrame
     lookup_df = pd.DataFrame({
-        'Station': stops_1,  # Both lists have the same stations, just reversed
+        'Station': stops_1,  
         'From Forest Hills (min)': cum_times_1,
         'From Oak Grove (min)': cum_times_0[::-1]  # Reverse to match station order
     })
     lookup_df.to_csv(output_csv_path, index=False)
     return lookup_df
 
-# Only run if called directly (not on import)
+
 if __name__ == "__main__":
     # Example usage
     import sys
     sys.path.append("..")
     from data_processing.preprocess import DataPreprocessor
-    from optimization.optimize import TrainScheduler
+    from optimization.simulated_annealing import TrainScheduler
     
     # Load and process data
     preprocessor = DataPreprocessor(

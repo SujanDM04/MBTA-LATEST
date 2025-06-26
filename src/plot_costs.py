@@ -12,7 +12,7 @@ def plot_cost_progress(sa_cost_progress, hc_cost_progress, ga_cost_progress=None
         ga_cost_progress: List of costs from Genetic Algorithm optimization (optional)
         save_dir: Directory to save the plots
     """
-    # Create plots directory if it doesn't exist
+    # Create plots directory 
     Path(save_dir).mkdir(exist_ok=True)
 
     plt.figure(figsize=(12, 7))
@@ -53,26 +53,3 @@ def plot_cost_progress(sa_cost_progress, hc_cost_progress, ga_cost_progress=None
     plt.show()
     print(f"Cost progress plot saved in '{save_dir}/cost_progress_comparison.png' (combined view)")
 
-def main():
-    """
-    Main function to run the cost progress plotting.
-    This function should be called after running the optimization algorithms.
-    """
-    print("Cost Progress Plotting Script")
-    print("=" * 40)
-    
-    # Example usage - you would typically get these from your main.py execution
-    # For now, we'll create some sample data to demonstrate the plotting
-    print("Note: This script is designed to be called after running main.py")
-    print("To use with actual optimization results, modify main.py to call this function")
-    print("with the actual cost_progress lists from your optimization runs.")
-    
-    # Sample data for demonstration
-    sa_sample = [10000, 9500, 9200, 9000, 8800, 8500, 8200, 8000, 7800, 7500]
-    hc_sample = [10000, 9800, 9600, 9400, 9200, 9000, 8800, 8600, 8400, 8200]
-    
-    print("\nPlotting sample cost progress data...")
-    plot_cost_progress(sa_sample, hc_sample)
-
-if __name__ == "__main__":
-    main() 

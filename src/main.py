@@ -2,7 +2,7 @@ import sys
 from pathlib import Path
 import pandas as pd
 from data_processing.preprocess import DataPreprocessor
-from optimization.optimize import TrainScheduler
+from optimization.simulated_annealing import TrainScheduler
 from optimization.hill_climbing import HillClimbingTrainScheduler
 from optimization.genetic_algorithm_experiment.genetic_algorithm import GeneticAlgorithmScheduler
 from visualization.visualize import ScheduleVisualizer
@@ -20,22 +20,22 @@ def main():
         gtfs_data_path="data/gtfs"
     )
     
-    # Process data (now returns 3 values)
+    # Process data 
     passenger_data, time_slots, geo_mean_demand = preprocessor.process_data()
 
     # Compute realistic onboard demand for each group
     onboard_demand_df = preprocessor.compute_onboard_demand(passenger_data)
-    print('onboard_demand_df columns:', onboard_demand_df.columns.tolist())  # Debug print
+    print('onboard_demand_df columns:', onboard_demand_df.columns.tolist())  
     onboard_hourly_df = onboard_demand_df  # Already has 'hour', 'day_type_name', 'direction_id', 'max_onboard'
 
     print("\nInitializing train scheduler...")
-    # Initialize train scheduler with custom parameters
+    # Initialize train scheduler with  parameters for simulated annealing
     scheduler = TrainScheduler(
         passenger_data=passenger_data,
         time_slots=time_slots,
         train_capacity=1000,    # Maximum passengers per train
         min_frequency=6,        # Minimum 6 minutes between trains
-        max_frequency=15        # Maximum 15 minutes between trains
+        max_frequency=30        # Maximum 30 minutes between trains
     )
     # Use improved demand modeling
     scheduler.initialize_slots(onboard_demand_df=onboard_hourly_df)
@@ -101,7 +101,7 @@ def main():
         day_schedule = schedule_df[schedule_df['Day Type'] == day_type]
         print(day_schedule[['Station', 'Departure Time', 'Trains per Hour', 'Minutes Between Trains']].to_string(index=False))
     
-    # Generate and display simple schedule for Simulated Annealing (from 6:00 AM, weekday only, deduplicated)
+    # Generate and display simple schedule for Simulated Annealing 
     print("\nSimple Train Schedule (Simulated Annealing, from 6:00 AM, weekday only):")
     simple_schedule = sa_visualizer.generate_simple_schedule(day_type='weekday', save_path="reports/simple_schedule_sa.csv")
     print(simple_schedule.head(20))

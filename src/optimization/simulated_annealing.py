@@ -1,3 +1,8 @@
+"""
+Simulated Annealing Algorithm for Train Scheduling Optimization
+
+"""
+
 import numpy as np
 import pandas as pd
 from typing import Dict, List, Tuple
@@ -11,20 +16,26 @@ class TimeSlot:
     max_slots: int
     current_trains: int
     demand: float
-    min_frequency: int = 15  # Minimum frequency in minutes
+    min_frequency: int = 6  # Minimum frequency in minutes
     max_frequency: int = 30  # Maximum frequency in minutes
 
 class TrainScheduler:
+    """
+    Simulated Annealing Scheduler for optimizing train allocation.
+    
+   
+    """
+    
     def __init__(self, 
                  passenger_data: pd.DataFrame,
                  time_slots: pd.DataFrame,
                  train_capacity: int = 1000,
-                 min_frequency: int = 15,
+                 min_frequency: int = 6,
                  max_frequency: int = 30):
         """
         Initialize the train scheduler.
         
-        Args:
+        parameters:
             passenger_data: Processed passenger flow data
             time_slots: Available time slots data
             train_capacity: Maximum capacity per train
@@ -104,11 +115,11 @@ class TrainScheduler:
         total_cost = 0
         for slot in self.slots.values():
             if slot.current_trains > 0:
-                # Calculate average wait time (half of the frequency)
+                #  average wait time 
                 frequency = 60 / slot.current_trains  # minutes between trains
                 wait_time = frequency / 2
                 
-                # Calculate load per train
+                #  load per train
                 load_per_train = slot.demand / slot.current_trains
                 
                 # Cost components
@@ -130,20 +141,22 @@ class TrainScheduler:
     def optimize_frequency(self, geo_mean_df, train_capacity=1000, min_trains=3, max_iterations: int = 1000) -> dict:
         """
         Use simulated annealing local search to optimize train allocation per hour.
-        Args:
+        
+        parameters:
             geo_mean_df: DataFrame with geometric mean ons for each (day_type_name, hour, direction_id)
             train_capacity: Maximum passengers per train
             min_trains: Minimum number of trains per hour
             max_iterations: Number of local search iterations
+            
         Returns:
             Dictionary of optimized train allocations
         """
         self.initialize_slots()
         
-        # Preprocess geo_mean_df into a dict for fast lookup
+        # Preprocess geo_mean_df into a dict 
         self.geo_lookup = {(row['day_type_name'], row['hour'], row['direction_id']): row['geo_mean_ons'] for _, row in geo_mean_df.iterrows()}
         
-        # Start with RANDOM allocation instead of deterministic demand-driven
+        # Start with random allocation 
         for key, slot in self.slots.items():
             # Random initial allocation within constraints
             min_possible = max(min_trains, int(60 / slot.max_frequency))
@@ -167,20 +180,20 @@ class TrainScheduler:
                     # Load-based cost with smoother gradients
                     load_per_train = geo_mean_ons / trains
                     
-                    # Overload penalty (quadratic)
+                    # Overload penalty 
                     overload = max(0, load_per_train - train_capacity)
                     total_cost += overload**2 * self.penalties['overload']
                     
-                    # Underutilization penalty (linear, not quadratic)
+                    # Underutilization penalty 
                     underutil = max(0, train_capacity * 0.3 - load_per_train)  # Penalize if less than 30% full
                     total_cost += underutil * self.penalties['underutil']
                     
-                    # Wait time cost (proportional to demand)
+                    # Wait time cost 
                     frequency = 60 / trains
                     wait_time = frequency / 2
                     total_cost += wait_time * geo_mean_ons * self.penalties['wait_time']
                     
-                    # Frequency constraint cost (softer penalties)
+                    # Frequency constraint cost 
                     if frequency < slot.min_frequency:
                         total_cost += (slot.min_frequency - frequency) * self.penalties['frequency']
                     elif frequency > slot.max_frequency:
@@ -222,7 +235,7 @@ class TrainScheduler:
             
             new_cost = cost_fn()
             
-            # Acceptance probability (Metropolis criterion)
+            # Acceptance probability 
             cost_diff = new_cost - current_cost
             if cost_diff < 0 or random.random() < np.exp(-cost_diff / temperature):
                 current_cost = new_cost
@@ -257,7 +270,7 @@ class TrainScheduler:
                 slot.current_trains = min(slot.current_trains + 1, slot.max_slots)
         
         return best_solution, cost_progress
-
+    # frequency analysis
     def get_frequency_analysis(self, solution: dict) -> pd.DataFrame:
         analysis_data = []
         for key, trains in solution.items():
@@ -276,32 +289,3 @@ class TrainScheduler:
             })
         return pd.DataFrame(analysis_data)
 
-if __name__ == "__main__":
-    # Example usage
-    import sys
-    sys.path.append("..")
-    from data_processing.preprocess import DataPreprocessor
-    
-    # Load and process data
-    preprocessor = DataPreprocessor(
-        passenger_data_path="data/passenger_flow/passenger_data.csv",
-        gtfs_data_path="data/gtfs"
-    )
-    passenger_data, time_slots = preprocessor.process_data()
-    
-    # Create scheduler and optimize
-    scheduler = TrainScheduler(
-        passenger_data, 
-        time_slots,
-        train_capacity=1000,
-        min_frequency=15,  # Minimum 15 minutes between trains
-        max_frequency=30   # Maximum 30 minutes between trains
-    )
-    
-    # Get optimized solution
-    solution, cost_progress = scheduler.optimize_frequency()
-    
-    # Analyze frequency distribution
-    frequency_analysis = scheduler.get_frequency_analysis(solution)
-    print("\nFrequency Analysis:")
-    print(frequency_analysis.to_string(index=False)) 

@@ -124,7 +124,7 @@ Generate optimization results including:
 
 2. Run Optimization:
    ```python
-   python src/optimization/optimize.py
+   python src/optimization/simulated_annealing.py
    ```
 
 3. Generate Visualizations:
