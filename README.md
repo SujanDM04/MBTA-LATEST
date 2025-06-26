@@ -8,6 +8,7 @@ The system uses local search techniques (Hill Climbing/Simulated Annealing) to o
 - Analyzing passenger flow data (ons/offs) across different time periods
 - Processing GTFS data to determine available train slots
 - Optimizing train allocation to minimize passenger wait times and overload
+![app_gif](https://github.com/user-attachments/assets/06ba3a58-5315-4680-a5d3-340e5645c06a)
 
 ## Project Structure
 
@@ -19,9 +20,6 @@ The system uses local search techniques (Hill Climbing/Simulated Annealing) to o
 │   ├── data_processing/        # Data preprocessing modules
 │   ├── optimization/           # AI optimization algorithms
 │   ├── visualization/          # Data visualization tools
-│   └── utils/                  # Utility functions
-├── notebooks/                  # Jupyter notebooks for analysis
-├── tests/                      # Unit tests
 ├── requirements.txt            # Project dependencies
 └── README.md                   # Project documentation
 ```
@@ -55,7 +53,7 @@ Required files:
   ```
 
 ### 2. Train Slot Analysis
-- Calculate available 15-minute time slots
+- Calculate availabletime slots
 - Determine maximum train capacity per period
 - Create slot allocation structure:
   ```
@@ -117,20 +115,13 @@ Generate optimization results including:
 
 ## Usage
 
-1. Data Preprocessing:
-   ```python
-   python src/data_processing/preprocess.py
-   ```
+run the whole pipeline using:
 
-2. Run Optimization:
-   ```python
-   python src/optimization/simulated_annealing.py
-   ```
+python main.py  # will run the optimization in depth
 
-3. Generate Visualizations:
-   ```python
-   python src/visualization/visualize.py
-   ```
+run the most optimal solution based webapp:
+streamlit run src/visualization/app.py
+
 
 ## Expected Output
 
