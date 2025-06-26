@@ -73,6 +73,7 @@ Required files:
 - Implement local search algorithms:
   - Hill Climbing
   - Simulated Annealing
+  - Genetic Algorithm
 - Handle constraints:
   - Maximum trains per time slot
   - Peak hour requirements
