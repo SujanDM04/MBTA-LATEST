@@ -4,11 +4,16 @@ This project implements an AI-driven train scheduling optimization system using 
 
 ## Project Overview
 
-The system uses local search techniques (Hill Climbing/Simulated Annealing) to optimize train scheduling by:
+The system uses local search techniques (Hill Climbing/Simulated Annealing/Genetic Algorithm) to optimize train scheduling by:
 - Analyzing passenger flow data (ons/offs) across different time periods
 - Processing GTFS data to determine available train slots
 - Optimizing train allocation to minimize passenger wait times and overload
-![app_gif](https://github.com/user-attachments/assets/06ba3a58-5315-4680-a5d3-340e5645c06a)
+- Make a webapp with the most optimal schedule
+
+https://github.com/user-attachments/assets/57b937bd-7f78-4600-b0fd-52fb819783f2
+
+
+  
 
 ## Project Structure
 
