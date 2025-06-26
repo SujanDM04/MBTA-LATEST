@@ -35,12 +35,3 @@ class CostFunction:
 
         return total_cost
 
-penalties = {
-    'constraint_violation': 1e8,  # Adjusted to match Hill Climbing and Simulated Annealing
-    'overload': 10,
-    'underutil': 100,
-    'wait_time': 0.1,
-    'frequency': 100,
-    'no_trains': 1e8  # Consistent across all algorithms
-}
-# Ensure all algorithms use this penalties dictionary for cost calculations.
