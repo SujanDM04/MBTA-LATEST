@@ -137,6 +137,7 @@ The system will generate:
    - Demand vs. capacity
    - Optimized train counts
    - Peak vs. off-peak patterns
+   - Cost comparison between all three algorithms
 
 ## Performance Metrics
 
@@ -144,6 +145,7 @@ The system will generate:
 - Train capacity utilization
 - Overload minimization
 - Schedule efficiency
+- Overall cost
 
 ## Contributing
 
