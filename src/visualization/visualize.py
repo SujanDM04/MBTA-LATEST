@@ -19,11 +19,12 @@ class ScheduleVisualizer:
         self.passenger_data = passenger_data
         self.optimization_results = optimization_results
         
-    def plot_demand_distribution(self, save_path: str = None):
+    def plot_demand_distribution(self, save_path: str = None, algorithm_name: str = ""):
         """
         Plot normalized (per-day) passenger demand distribution across hours and directions.
         Args:
             save_path: Optional path to save the plot
+            algorithm_name: Optional name of the algorithm used for optimization
         """
         plt.figure(figsize=(16, 8))
 
@@ -55,7 +56,10 @@ class ScheduleVisualizer:
             errorbar=None
         )
 
-        plt.title('Passenger Demand Distribution per Day by Hour and Direction')
+        title = 'Passenger Demand Distribution per Day by Hour and Direction'
+        if algorithm_name:
+            title += f" ({algorithm_name})"
+        plt.title(title)
         plt.xlabel('Hour of Day')
         plt.ylabel('Average Daily Passengers')
         plt.xticks(rotation=45)
@@ -66,11 +70,12 @@ class ScheduleVisualizer:
         plt.show()
 
         
-    def plot_train_allocation(self, save_path: str = None):
+    def plot_train_allocation(self, save_path: str = None, algorithm_name: str = ""):
         """
         Plot optimized train allocation across hours and directions.
         Args:
             save_path: Optional path to save the plot
+            algorithm_name: Optional name of the algorithm used for optimization
         """
         plt.figure(figsize=(16, 8))
         # Convert optimization results to DataFrame
@@ -92,7 +97,10 @@ class ScheduleVisualizer:
             hue='day_type_name',
             errorbar=None
         )
-        plt.title('Optimized Train Allocation by Hour and Direction')
+        title = 'Optimized Train Allocation by Hour and Direction'
+        if algorithm_name:
+            title += f" ({algorithm_name})"
+        plt.title(title)
         plt.xlabel('Hour of Day')
         plt.ylabel('Number of Trains')
         plt.xticks(rotation=45)
@@ -101,12 +109,13 @@ class ScheduleVisualizer:
             plt.savefig(save_path)
         plt.show()
         
-    def plot_load_distribution(self, train_capacity: int, save_path: str = None):
+    def plot_load_distribution(self, train_capacity: int, save_path: str = None, algorithm_name: str = ""):
         """
         Plot passenger load distribution per train by hour and direction.
         Args:
             train_capacity: Maximum capacity per train
             save_path: Optional path to save the plot
+            algorithm_name: Optional name of the algorithm used for optimization
         """
         plt.figure(figsize=(16, 8))
         # Calculate load per train
@@ -147,7 +156,10 @@ class ScheduleVisualizer:
         )
         # Add capacity line
         plt.axhline(y=train_capacity, color='r', linestyle='--', label='Train Capacity')
-        plt.title('Passenger Load per Train by Hour and Direction')
+        title = 'Passenger Load per Train by Hour and Direction'
+        if algorithm_name:
+            title += f" ({algorithm_name})"
+        plt.title(title)
         plt.xlabel('Hour of Day')
         plt.ylabel('Passengers per Train')
         plt.xticks(rotation=45)
@@ -195,17 +207,21 @@ class ScheduleVisualizer:
         with open(output_path, 'w') as f:
             json.dump(report, f, indent=4)
 
-    def plot_train_allocation_comparison(self, other_results: dict, other_label: str = "Hill Climbing", this_label: str = "Simulated Annealing", save_path: str = None):
+    def plot_train_allocation_comparison(self, other_results: dict, third_results: dict = None, 
+                                       other_label: str = "Hill Climbing", this_label: str = "Simulated Annealing", 
+                                       third_label: str = "Genetic Algorithm", save_path: str = None):
         """
-        Plot side-by-side comparison of train allocations for two optimization results,
+        Plot side-by-side comparison of train allocations for two or three optimization results,
         focusing on total trains per hour for weekdays.
         Args:
-            other_results: Dictionary of train allocations from the other optimizer
-            other_label: Label for the other optimizer
+            other_results: Dictionary of train allocations from the second optimizer
+            third_results: Dictionary of train allocations from the third optimizer (optional)
+            other_label: Label for the second optimizer
             this_label: Label for this optimizer
+            third_label: Label for the third optimizer
             save_path: Optional path to save the plot
         """
-        # Convert both results to DataFrames
+        # Convert results to DataFrames
         def to_df(results, label):
             data = []
             for key, trains in results.items():
@@ -221,7 +237,12 @@ class ScheduleVisualizer:
 
         df1 = to_df(self.optimization_results, this_label)
         df2 = to_df(other_results, other_label)
-        combined = pd.concat([df1, df2], ignore_index=True)
+        
+        if third_results is not None:
+            df3 = to_df(third_results, third_label)
+            combined = pd.concat([df1, df2, df3], ignore_index=True)
+        else:
+            combined = pd.concat([df1, df2], ignore_index=True)
 
         # Filter for weekday and sum trains per hour
         weekday_comparison = combined[combined['day_type_name'] == 'weekday'].copy()
@@ -235,7 +256,12 @@ class ScheduleVisualizer:
             y='trains',
             hue='optimizer'
         )
-        plt.title('Train Allocation Comparison by Hour (Weekday Total)')
+        title = 'Train Allocation Comparison by Hour (Weekday Total)'
+        if third_results is not None:
+            title += f" - {this_label} vs {other_label} vs {third_label}"
+        else:
+            title += f" - {this_label} vs {other_label}"
+        plt.title(title)
         plt.xlabel('Hour of Day')
         plt.ylabel('Total Number of Trains per Hour')
         plt.xticks(rotation=45)
